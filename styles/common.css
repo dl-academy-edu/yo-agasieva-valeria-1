@@ -1,0 +1,65 @@
+/* Общие стили*/
+
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ol {
+    list-style-type: none;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+.category__link {
+    color: #FFFFFF;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+header {
+    display: flex;
+    align-items: center;
+    margin: 50px auto;
+}
+
+.header__nav-list {
+    display: flex;
+}
+
+.header-nav__link {
+    color: #1E0606;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.header-nav__item:not(:last-child) {
+    margin-right: 20.02px;
+}
+
+.header-search__list {
+    display: flex;
+    align-items: center;
+    margin: 67.26px auto;
+}

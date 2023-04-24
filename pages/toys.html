@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DLKmalLtoys</title>
+    <link rel="stylesheet" href="../styles/normalize.css">
+    <link rel="stylesheet" href="../styles/common.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,400;1,700&family=Montserrat:wght@700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header container">
+        <a href="/">
+            <img class="header__logo" src="../pictures/logo.png" alt="LogoDLKmalL">
+        </a>
+        <nav class="header__nav">
+            <ul class="header__nav-list">
+                <li class="header-nav__item">
+                    <a class="header-nav__link" href="#">Blog</a></li>
+                <li class="header-nav__item">
+                    <a class="header-nav__link" href="#">Catalog</a></li>
+                <li class="header-nav__item">
+                    <a class="header-nav__link" href="#">About us</a></li>
+            </ul>
+        </nav>
+        <img class="header-search" src="../pictures/XMLID1397.png" alt="search">
+        <uL class="header-search__list">
+            <li class="header-search__search"><input type="search">search</li>
+            <li class="header-search__btn"><a href="#">Contact us</a></li>
+        </uL>
+    </header>
+    <main class="toys">
+        <section class="toys container">
+            <h1 class="toys-title">Toy for kids</h1>
+            <nav class="breadcrumps">
+                <ul class="breadcrumps-list">
+                    <li class="breadcrumps__link"><a href="#">Home</a></li>
+                    <li class="breadcrumps__img"><img class="category-nav__img" src="../pictures/vector.png" alt="pointer"></li>
+                    <li class="breadcrumps__link"><a href="#">Catalog</a></li>
+                    <li class="breadcrumps__img"><img class="category-nav__img" src="../pictures/vector.png" alt="pointer"></li>
+                    <li class="breadcrumps__link"><a href="#">Toys</a></li>  
+                    </ul>
+            </nav>
+        <form class="filtres" action ="toys-color">
+            <fieldset class="cost">
+                <legend class="filer__titel">Cost</legend> 
+            <input class="cost__item" type="range" min="0" max="500">
+            </fieldset>
+            <fieldset class="color__checkbox"> 
+                <legend class="filer__title">Color</legend>
+                    <input class="toys-ceckbox" type="checkbox">Black>
+                    <input class="toys-ceckbox" type="checkbox">Blue
+                    <input class="toys-ceckbox" type="checkbox">Green
+                    <input class="toys-ceckbox" type="checkbox">White
+            </fieldset>   
+            <fieldset class="delivery__checbox">
+                <legend class="filer__title">Delivery</legend>
+                    <input class="shipping" type="radio" name="Free shipping">Free shipping
+                    <input class="shipping" type="radio" name="Fast shipping">Fast shipping
+            </fieldset>
+            <fieldset class="amount__btn">
+                <legend class="filer__titel">Amount</legend>
+                    <button class="amount__btn">0-5</button>
+                    <button class="amount__btn">10-20</button>
+                    <button class="amount__btn">20-50</button>
+                    <button class="amount__btn">Apply</button><a href="#"></a>
+            </fieldset>
+        </form>
+        </section>
+        <section class="toys container">
+            <h2 class="hidden header">Catologe Toy</h2>
+                <ul class="toys__list">
+                    <li class="">
+                        <a href="#"><img class="toys__img" src="../pictures/shark.jpg" alt="SHARKY BEAN BAG CHAIR COVER">
+                            <p class="toys__name">SHARKY BEAN BAG CHAIR COVER</p>
+                            <p>$60.00 USD</p></li></a>
+                    <li class="">
+                        <a href="#"><img class="toys__img" src="../pictures/suspension.jpg" alt="BRASS DECO FRAMES">
+                            <p class="toys__name">BRASS DECO FRAMES</p>
+                            <p>$66.00 USD</p></a>
+                        </li>                    
+                    <li class="">
+                        <a href="#"><img class="toys__img" src="../pictures/apron.jpg" alt="CIBO FULL APRON">
+                            <p class="toys__name">CIBO FULL APRON</p>
+                            <p>$60.00 USD</p></li></a>
+                    <li class="">
+                        <a href="#"><img class="toys__img" src="../pictures/gamtoy.jpg" alt="GATCHA GATCHA GUMBALL MACHINE">
+                            <p class="toys__name">GATCHA GATCHA GUMBALL MACHINE</p>
+                            <p>$56.00 USD</p></li></a>
+                    <li class="">
+                        <a href="#"><img class="toys__img" src="../pictures/candle.jpg" alt="CHRISTMAS ADVENT SCENTED CANDLE">
+                            <p class="toys__name">CHRISTMAS ADVENT SCENTED CANDLE</p>
+                            <p>$29.00 USD</p></li></a>
+                    <li class="">
+                        <a href="#"><img class="toys__img" src="../pictures/lamp.jpg" alt="TANGLE SPINNING TEA LIGHT">
+                            <p class="toys__name">TANGLE SPINNING TEA LIGHT</p>
+                            <p>$56.00 USD</p></li> </a>
+                </ul>
+        </section>
+        <div class="pages container">
+            <button class="pages__item"><img src="../pictures/left.jpg" alt="left arrow"></button>
+            <ol class="pages__list">
+                <li class="pages__item"><button class="pages__btn">1</button></li>
+                <li class="pages__item"><button class="pages__btn">2</button></li>
+                <li class="pages__item"><button class="pages__btn">3</button></li>
+                <li class="pages__item"><button class="pages__btn">4</button></li>
+            </ol>
+            <button class="pages__item"><img src="../pictures/right.jpg" alt="right arrow"></button>
+        </div>
+    </main>
+    <footer>
+        <section class="footer container">
+            <h3 class="footer-hidden">hidden footer</h3>
+                <p class="footer-title">Navigation</p>
+            <ul class="footer__list">
+                <li class="footer__item"><a class="footer__link" href="#">About Us</a></li>
+                <li class="footer__item"><a class="footer__link" href="#">Blog</a></li>
+                <li class="footer__item"><a class="footer__link" href="#">Design Services</a></li>
+                <li class="footer__item"><a class="footer__link" href="#">Featured On</a></li>
+                <li class="footer__item"><a class="footer__link" href="#">2018 Holiday Catalog</a></li>
+                <li class="footer__item"><a class="footer__link" href="#">Shop By Designer</a></li>
+            </ul>
+            <p class="footer-title">Customer Information</p> 
+            <ul class="footer__list">
+                <li class="footer__item"><a class="footer__link" href="#">Contact Us</a></li>
+                <li class="footer__item"><a class="footer__link" href="#">Sale Exclusions</a></li>
+                <li class="footer__item"><a class="footer__link" href="#">Shipping & Returns</a></li> 
+                <li class="footer__item"><a class="footer__link" href="#">Terms & Conditions</a></li>
+                <li class="footer__item"><a class="footer__link" href="#">Privacy Policy</a></li>
+                <li class="footer__item"><a class="footer__link" href="#">Search</a></li>
+            </ul>
+            <p class="footer-title">Connect</p> 
+            <form class="footer__enter" action="e-mail">e-mail
+            <button class="footer__btn">Join</button>
+            </form>
+            <ul class="footer-social__list">
+                <li class="footer-social__item"><a class="footer-social__link" href="#">Facebook</a></li>
+                <li class="footer-social__item"><a class="footer-social__link" href="#">Twitter</a></li>
+                <li class="footer-social__item"><a class="footer-social__link" href="#">Pinterest</a></li>
+                <li class="footer-social__item"><a class="footer-social__link" href="#">Instagram</a></li>
+            </ul>
+            <ul class="iformation">
+                <li class="information__text">Company RatingCompany Rating &#9733;&#9733;&#9733;&#9733;&#9733;</li>
+                <li class="information__text">Copyright © 2018 Dlk • Design Life Kids</li>
+                <li class="information__text">Web Design — Direct Line Development</li>
+            </ul>
+        </section>
+    </footer>
+</body>
+</html>

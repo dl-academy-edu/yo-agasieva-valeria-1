@@ -5,11 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DLKmalL</title>
+    <link rel="stylesheet" href="./styles/normalize.css">
+    <link rel="stylesheet" href="./styles/common.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,400;1,700&family=Montserrat:wght@700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body> 
-    <header class="header">
+    <header class="header container">
         <a href="/">
-            <img class="header__logo" src="/pictures/logo.png" alt="LogoDLKmalL">
+            <img class="header__logo" src="./pictures/logo.png" alt="LogoDLKmalL" width="100" height="52">
         </a>
         <nav class="header__nav">
             <ul class="header__nav-list">
@@ -23,41 +28,50 @@
         </nav>
         <img class="header-search" src="/pictures/XMLID1397.png" alt="search">
         <uL class="header-search__list">
-            <li class="header-search__search"><input type="search">search</li>
+            <li class="header-search__search"><img class="header-search" src="./pictures/XMLID1397.png" alt="search" width="17" height="17">
+                <input type="search">search</li>
             <li class="header-search__btn"><a href="#">Contact us</a></li>
         </uL>
     </header>
-    <main>
-        <section class="banner">
-            <h1 class="banner-title">The OOH NOO COLLECTION</h1>
+    <main class="main">
+        <section class="banner container">
+            <ul class="banner-nav__list">
+                <li><p class="banner-text">01</p></li>
+                <li class="banner-btn__item">
+                    <button class="banner-btn__item"></button></li>
+                <li class="banner-nav">
+                    <button class="banner-btn__item"></button></li>
+                <li class="banner-nav">
+                    <button class="banner-btn__item"></button></li>
+                <li class="banner-nav">
+                    <button class="banner-btn__item"></button></li>
+            </ul>
+                <h1 class="banner-title">The OOH NOO COLLECTION</h1>
             <p class="banner-text"> Designet in Slovenia</p>
                 <p class="shipping__text">Free (continental) USA shipping on all orders of $100 USD or more!</p>
-            <ol class="bunner-nav__list">
-                <li class="banner-nav">
-                    <button class="banner-btn__item">01</button></li>
-                <li class="banner-nav">
-                    <button class="banner-btn__item">02</button></li>
-                <li class="banner-nav">
-                    <button class="banner-btn__item">03</button></li>
-                <li class="banner-nav">
-                    <button class="banner-btn__item">02</button></li>
-            </ol>
             <ul class="banner-picture__list">
                 <li class="banner-picture__item">
+                    <img class="banner-picture__img" src="./pictures/bunner.png" alt="product picture">
                     <img class="banner-picture__img" src="/pictures/LOGOR.png" alt="product picture">
                     <button class="banner__btn">Exploer now</button>
                 </li>
-                <li class="banner-picture__item">
-                    <img class="banner-picture__img" src="#" alt="product picture"></li>
-                <li class="banner-picture__item">
-                    <img class="banner-picture__img" src="#" alt="product picture"></li>
-                <li class="banner-picture__item">
-                    <img class="banner-picture__img" src="#" alt="product picture"></li>
             </ul>
         </section>
-        <section class="category">
+        <section class="category container">
             <h2 class="category__title">Category Products</h2>
             <ul class="category__list">
+                <li class="category__item">
+                    <a class="category__link" href="#"><img class="category__img" src="./pictures/sweater.png" alt="APPAREL KIDS" >
+                        <p>APPAREL KIDS</p></a></li>
+                <li class="category__item">
+                    <a class="category__link" href="#"><img class="category__img" src="./pictures/sock.png" alt="HOLIDAY SHOP">
+                        <p>HOLIDAY SHOP</p></a></li>
+                <li class="category__item">
+                    <a class="category__link" href="#"><img class="category__img" src="./pictures/deer.png" alt="TOYS">
+                    <p>TOYS</p></a></li>
+                <li class="category__item">
+                    <a class="category__link" href="#"><img class="category__img" src="./pictures/man.png" alt="ACCESSORIES">
+                        <p>ACCESSORIES</p></a></li>
                 <li class="category__item"><p>APPAREL KIDS</p>
                     <a href="#"><img class="category__img" src="/pictures/sweater.png" alt="APPAREL KIDS" ></a></li>
                 <li class="category__item"><p>HOLIDAY SHOP</p>
@@ -71,24 +85,34 @@
             <button class="category-control">rigt</button>
             <p class="category__quote">Modern finds for the modern home. Curated goods by unique designers around the world from fashion to furniture for kids and adults.</p>
         </section>
-        <section class="delivery">
+        <section class="delivery container">
             <img src="#" alt="foto girl" class="delivery__img">
             <h2 class="delivery-title">Delivery</h2>
             <ul class="delivery-list">
                 <li class="delivery-list__item">
-                    <a class="delivery-list__link" href="#">Delivery</a></li>
+                    <button>Delivery</button></li>
                 <li class="delivery-list__item">
-                    <a class="delivery-list__link" href="#">Guarantee</a></li>
+                    <button>Guarantee</button></li>
                 <li class="delivery-list__item">
-                    <a class="delivery-list__link" href="#">Credit</a></li>
+                    <button>Credit</button></li>
             </ul>
             <p class="delivery__text">Some days i feel like i've been working on dlk my entire life and there are other days that i am completely shocked that four years have flown by. It's simply magical.</p>
             <p class="delivery__text">What started as an outlet to deal  with the traumatic loss of my husband, dlk has now become a truly happy place for me and i have you and all of the beautiful designers that we work with to thank!</p>
             <a class="delivery-btn " href="#">Learn more</a>
         </section>
-        <div class="partners">
+        <div class="partners container">
             <ul class="partners">
                 <li class="partners__list">
+                    <img class="partners__img" src="./pictures/mail.png" alt="picture Mail">
+                </li>
+                <li class="partners__list">
+                    <img class="partners__img" src="./pictures/apple.png" alt="picture Apple">
+                </li>
+                <li class="partners__list">
+                    <img class="partners__img" src="./pictures/eltex.png" alt="picture eltex">
+                </li>
+                <li class="partners__list">
+                    <img class="partners__img" src="./pictures/owox.png" alt="picture owox">
                     <img class="partners__img" src="/pictures/mail.png" alt="picture Mail">
                 </li>
                 <li class="partners__list">
@@ -113,14 +137,13 @@
                 <li class="about us-contacts__item"><h2 class="about us-title">Contacts</h2></li>
                 <li class="about us-text">Some days i feel like i've been working on dlk my entire life and there are other days that i am completely shocked that four years have flown by. It's simply magical.</li>
                 <li class="about us-map"><a href="#"><img class="about us__map" src="#" alt="Map"></a>
-                    <map name="Map"></map>
                 </li>                
             </ul>
         </section>
     </main>
     <footer>
-        <section class="footer">
-            <h3 class="footer-hidden">hidden header</h3>
+        <section class="footer container">
+            <h3 class="footer-hidden">hidden footer</h3>
                 <p class="footer-title">Navigation</p>
             <ul class="footer__list">
                 <li class="footer__item"><a class="footer__link" href="#">About Us</a></li>
@@ -140,7 +163,8 @@
                 <li class="footer__item"><a class="footer__link" href="#">Search</a></li>
             </ul>
             <p class="footer-title">Connect</p> 
-            <form class="footer__enter" action="e-mail">e-mail
+            <form action="#" class="footer__enter">
+                <input type="email" name="email">
             <button class="footer__btn">Join</button>
             </form>
             <ul class="footer-social__list">
