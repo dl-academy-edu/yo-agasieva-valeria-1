@@ -18,7 +18,11 @@ a {
     font-family: 'Montserrat', sans-serif;
 }
 a:hover {
-    text-decoration: underline;
+    text-decoration: none;
+}
+
+.footer {
+    background-color: #434343;
 }
 
 .category__link {
@@ -29,6 +33,17 @@ p {
     font-family: 'Open Sans', sans-serif;
 }
 
+.footer__link {
+    color: #ffffff;
+    font-family: 'Open Sans';
+    font-style: normal;
+}
+
+.footer-title {
+    color: #AAAAAA;
+    font-family: 'Open Sans';
+    font-style: normal;
+}
 
 header {
     display: flex;
