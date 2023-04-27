@@ -14,7 +14,7 @@
 <body> 
     <header class="header container">
         <a href="/">
-            <img class="header__logo" src="./pictures/logo.png" alt="LogoDLKmalL" width="100" height="52">
+            <img class="header__logo" src="./pictures/logo.png" alt="LogoDLKmalL" width="125" height="65">
         </a>
         <nav class="header__nav">
             <ul class="header__nav-list">
@@ -28,7 +28,7 @@
         </nav>
             <uL class="header-search__list">
                 <li class="header-search__search"><img class="header-search" src="./pictures/XMLID1397.png" alt="search" width="17" height="17">search</li>
-            <li class="header-search__btn"><a href="#">Contact us</a></li>
+            <li class="header-search__btn"><a href="./pages/contact.html">Contact us</a></li>
         </uL>
     </header>
     <main class="main">
@@ -36,13 +36,13 @@
             <ul class="banner-nav__list">
                 <li><p class="banner-text">01</p></li>
                 <li class="banner-btn__item">
-                    <button class="banner-btn__item">banner navigation</button></li>
+                    <button class="banner-btn__item" aria-label="banner navigator"></button></li>
                 <li class="banner-nav">
-                    <button class="banner-btn__item">banner navigation</button></li>
+                    <button class="banner-btn__item" aria-label="banner navigator"></button></li>
                 <li class="banner-nav">
-                    <button class="banner-btn__item">banner navigation</button></li>
+                    <button class="banner-btn__item" aria-label="banner navigator"></button></li>
                 <li class="banner-nav">
-                    <button class="banner-btn__item">banner navigation</button></li>
+                    <button class="banner-btn__item" aria-label="banner navigator"></button></li>
             </ul>
                 <h1 class="banner-title">The OOH NOO COLLECTION</h1>
             <p class="banner-text"> Designet in Slovenia</p>
@@ -50,7 +50,6 @@
             <ul class="banner-picture__list">
                 <li class="banner-picture__item">
                     <img class="banner-picture__img" src="./pictures/bunner.png" alt="product picture">
-                    <img class="banner-picture__img" src="/pictures/LOGOR.png" alt="product picture">
                     <button class="banner__btn">Exploer now</button>
                 </li>
             </ul>
@@ -155,7 +154,16 @@
                 <li class="footer-social__item"><a class="footer-social__link" href="#">Instagram</a></li>
             </ul>
             <ul class="iformation">
-                <li class="information__text">Company RatingCompany Rating &#9733;&#9733;&#9733;&#9733;&#9733;</li>
+                <li class="information__rating">Company RatingCompany Rating</li>
+                <li class="iformation__rating">
+                    <fieldset class="iformation__rating-name">
+                            <input class="iformation__rating-star" type="radio" name="rating" value="1" aria-label="Terrible" checked>
+                            <input class="iformation__rating-star" type="radio" name="rating" value="2" aria-label="Passable">
+                            <input class="iformation__rating-star" type="radio" name="rating" value="3" aria-label="Normal">
+                            <input class="iformation__rating-star" type="radio" name="rating" value="4" aria-label="Fine">
+                            <input class="iformation__rating-star" type="radio" name="rating" value="5" aria-label="Wonderful">
+                    </fieldset>
+                </li>
                 <li class="information__text">Copyright © 2018 Dlk • Design Life Kids</li>
                 <li class="information__text">Web Design — Direct Line Development</li>
             </ul>

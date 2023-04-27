@@ -11,6 +11,15 @@ ol {
     list-style-type: none;
 }
 
+h1, h2 {
+    font-family: 'Montserrat', sans-serif;
+    min-width: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    color: #1E0606;
+}
+
 a {
     display: inline-block;
     text-decoration: none;
@@ -53,7 +62,7 @@ header {
 
 .container{
     max-width: 1400px;
-    margin: 0 auto;
+    margin: 0px 135;
 }
 
 .header__nav-list {
@@ -72,8 +81,24 @@ header {
     text-transform: uppercase;
 }
 
-.header-nav__item:not(:last-child) {
-    margin-right: 20.02px;
+.header-nav__link{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+
+    /* Black */
+
+    color: #1E0606;
+
+}
+
+.header-nav__item{
+    padding-left: 35px;
 }
 
 .header-search__list {
@@ -81,3 +106,47 @@ header {
     align-items: center;
     margin: 67.26px auto;
 }
+
+/* .iformation__rating-group {
+    position: relative;
+    width: 70px;
+    height: 18px;
+    background-image: url(../pictures/Star.png);
+    background-size: 18 auto;
+}
+
+.iformation__rating-star {
+    position: absolute;
+    height: 16px;
+    top: 43px;
+    left: 27px;
+    margin: 0;
+    font-size: inherit;
+    appearance: none;
+} 
+
+
+.information__rating-star:nth-of-type(1) {
+    z-index: 5;
+    width: 3.6px;
+}
+
+.information__rating-star:nth-of-type(2) {
+    z-index: 4;
+    width: 7.02px;    
+}
+
+.information__rating-star:nth-of-type(3) {
+    z-index: 3;
+    width: 10.2px;
+}
+
+.information__rating-star:nth-of-type(4) {
+    z-index: 2;
+    width: 13.6px;
+}
+
+.information__rating-star:nth-of-type(5) {
+    z-index: 1;
+    width: 17.12px;
+} */
