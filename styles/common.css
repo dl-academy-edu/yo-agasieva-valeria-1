@@ -30,16 +30,69 @@ a:hover {
     text-decoration: none;
 }
 
+.header__logo{
+    margin: 5px 44px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    margin: 50px auto;
+}
+
+.header__nav-list {
+    display: flex;
+    /* margin-right: auto; */
+}
+
+.header-search__list{
+    margin: auto;
+    display: flex;
+} 
+
+.header-nav__item{
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+} 
+
+.header-nav__item:not(:last-child) { 
+    margin-right: 20px;
+}
+
+.header-search__item:not(:last-child) {
+    margin-right: 23px;
+}
+
+
+.header-nav__link {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;    
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+
+    /* Black */
+
+    color: #1E0606;
+}
+
+.container{
+    max-width: 1400px;  
+}
+
+
 .footer {
     background-color: #434343;
+    display: flex;
+    align-items: center;
 }
 
 .category__link {
     color: #FFFFFF;
-}
-
-p {
-    font-family: 'Open Sans', sans-serif;
 }
 
 .footer__link {
@@ -54,57 +107,19 @@ p {
     font-style: normal;
 }
 
-header {
-    display: flex;
-    align-items: center;
-    margin: 50px auto;
-}
-
-.container{
-    max-width: 1400px;
-    margin: 0px 135;
-}
-
-.header__nav-list {
-    display: flex;
-}
-
-.header-nav__link {
-    color: #1E0606;
+.header-search__btn {
     font-family: 'Open Sans';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 700;
     font-size: 14px;
     line-height: 19px;
     display: flex;
     align-items: center;
     text-transform: uppercase;
-}
-
-.header-nav__link{
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 19px;
-    line-height: 18px;
-    display: flex;
-    align-items: center;
-    text-transform: uppercase;
-
+    
     /* Black */
-
+    
     color: #1E0606;
-
-}
-
-.header-nav__item{
-    padding-left: 35px;
-}
-
-.header-search__list {
-    display: flex;
-    align-items: center;
-    margin: 67.26px auto;
 }
 
 /* .iformation__rating-group {
