@@ -14,7 +14,7 @@
 <body> 
     <header class="header container">
         <a href="/">
-            <img class="header__logo" src="./pictures/logo.png" alt="LogoDLKmalL" width="110" height="59">
+            <img class="header__logo" src="./pictures/logo.png" alt="LogoDLKmalL" width="100" height="52">
         </a>
         <nav class="header__nav">
             <ul class="header__nav-list">
@@ -32,7 +32,7 @@
         </uL>
     </header>
     <main class="main">
-        <section class="banner">
+        <section class="banner container">
             <ul class="banner-nav__list">
                 <li><p class="banner-text">01</p></li>
                 <li class="banner-btn__item">
@@ -105,7 +105,7 @@
                 </li>
             </ul>
         </div>
-        <section class="about us container">
+        <section class="about container">
             <ul class="about us-list">
                 <li class="about us__list"><h2 class="about us-title">Design Life Kids</h2></li>  
                 <li class="about us-text">About Us</li>
@@ -123,8 +123,9 @@
     <footer>
         <section class="footer container">
             <h3 class="footer-hidden">hidden footer</h3>
-                <p class="footer-title">Navigation</p>
+            <div  class="footer-block">
             <ul class="footer__list">
+                <li class="footer-title"><p class="footer-text" tabindex="0">Navigation</p></li>
                 <li class="footer__item"><a class="footer__link" href="#">About Us</a></li>
                 <li class="footer__item"><a class="footer__link" href="#">Blog</a></li>
                 <li class="footer__item"><a class="footer__link" href="#">Design Services</a></li>
@@ -132,8 +133,8 @@
                 <li class="footer__item"><a class="footer__link" href="#">2018 Holiday Catalog</a></li>
                 <li class="footer__item"><a class="footer__link" href="#">Shop By Designer</a></li>
             </ul>
-            <p class="footer-title">Customer Information</p> 
             <ul class="footer__list">
+                <li class="footer-title"><p class="footer-text">Customer Information</p> </li>
                 <li class="footer__item"><a class="footer__link" href="#">Contact Us</a></li>
                 <li class="footer__item"><a class="footer__link" href="#">Sale Exclusions</a></li>
                 <li class="footer__item"><a class="footer__link" href="#">Shipping & Returns</a></li> 
@@ -141,32 +142,24 @@
                 <li class="footer__item"><a class="footer__link" href="#">Privacy Policy</a></li>
                 <li class="footer__item"><a class="footer__link" href="#">Search</a></li>
             </ul>
-            <p class="footer-title">Connect</p> 
-            <form action="#" class="footer__enter">
-                <label class="contact__lable" for="Email">Email</label>
-                <input class="contact__input" type="email" id="Email">
-            <button class="footer__btn">Join</button>
-            </form>
+                <p class="footer-text">Connect</p> 
+                    <form class="footer__enter" action="e-mail">e-mail
+                        <button class="footer__btn">Join</button>
+                    </form>
             <ul class="footer-social__list">
                 <li class="footer-social__item"><a class="footer-social__link" href="#">Facebook</a></li>
                 <li class="footer-social__item"><a class="footer-social__link" href="#">Twitter</a></li>
                 <li class="footer-social__item"><a class="footer-social__link" href="#">Pinterest</a></li>
                 <li class="footer-social__item"><a class="footer-social__link" href="#">Instagram</a></li>
             </ul>
+            </div>
+            <div class="footer-end">
             <ul class="iformation">
-                <li class="information__rating">Company RatingCompany Rating</li>
-                <li class="iformation__rating">
-                    <fieldset class="iformation__rating-name">
-                            <input class="iformation__rating-star" type="radio" name="rating" value="1" aria-label="Terrible" checked>
-                            <input class="iformation__rating-star" type="radio" name="rating" value="2" aria-label="Passable">
-                            <input class="iformation__rating-star" type="radio" name="rating" value="3" aria-label="Normal">
-                            <input class="iformation__rating-star" type="radio" name="rating" value="4" aria-label="Fine">
-                            <input class="iformation__rating-star" type="radio" name="rating" value="5" aria-label="Wonderful">
-                    </fieldset>
-                </li>
+                <li class="information__text">Company RatingCompany Rating &#9733;&#9733;&#9733;&#9733;&#9733;</li>
                 <li class="information__text">Copyright © 2018 Dlk • Design Life Kids</li>
                 <li class="information__text">Web Design — Direct Line Development</li>
             </ul>
+            </div>
         </section>
     </footer>
 </body>
