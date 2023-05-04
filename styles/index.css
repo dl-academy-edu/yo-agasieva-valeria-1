@@ -1,4 +1,4 @@
-/* .banner-title{
+.banner-title{
     position: absolute;
     width: 307px;
     height: 88px;
@@ -7,41 +7,53 @@
 }
 
 .banner-text-contry{
-    position: absolute;
     width: 151.12px;
     height: 26px;
     left: 243px;
     top: 428px;
-    font-family: 'Crimson Text';
+    font-family: 'Crimson Text', sans-serif;
     font-style: italic;
     font-weight: 400;
     font-size: 20px;
     line-height: 26px;
 }
 
-.banner-picture__img {
-    position: absolute;
-    width: 635.49px;
-    height: 461px;
-    left: 555px;
-    top: 142px;
-}
-
 .banner-nav__list {
-    position: absolute;
+    margin-top: 129px;
     width: 1180px;
     height: 411px;
-    left: 110px;
-    top: 231px;
     background: #EEE4DB;
 }
 
 .banner-btn__item{
-    position: absolute;
-    width: 31px;
-    height: 3px;
-    left: 141px;
-    top: 332px;
+display: flex;
+margin-bottom: 11px;
+margin-left: 31px;
+width: 31px;
+height: 2px;
 background: #1e060699;
 }
- */
+
+.banner-text {
+    margin-top: 40px;
+    margin-left: 28px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 60px;
+    line-height: 73px;
+    color: #1e06060d;
+}
+
+.banner-title{
+    display: flex;
+    margin: 89px 0px 0px 243px;
+}
+
+.banner-picture__img {
+    position: absolute;
+    width: 635.49px;
+    left: 555px;
+    top: 142px;
+    z-index: 1;
+}
