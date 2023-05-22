@@ -8,41 +8,48 @@
     height: 88px;
     left: 146px;
     top: 60px;
+    line-height: 100%;
 }
 
 .banner-nav__list {
     margin-top: 129px;
     margin-left: 12px;
-    width: 1180px;
     height: 411px;
+    padding: 17px 28px;
     background: #EEE4DB;
 }
 
-.banner-btn__item{
+.banner-nav{
     display: flex;
+    margin: 11px 0px;
+    max-width: fit-content;
+}
+
+.banner-btn__item{
     width: 31px;
     height: 3px;
-    margin-bottom: 11px;
-    margin-left: 31px;
     background: #D6CAC2;
-    border: 1px #D6CAC2;
 }
 
 .banner-btn__item:hover{
-    color: #725F5B;
+    background: #725F5B;
 }
 
 .banner-btn__item:active{
-    color: #725F5B;
+    background: #725F5B;
+}
+
+.active{
+    background: #725F5B;
 }
 
 .banner-number {
-    margin-top: 40px;
-    margin-left: 28px;
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 200;
     font-size: 60px;
+    line-height: 100%;
+    max-width: max-content;
     color: #1e06060d;
 }
 
@@ -50,11 +57,11 @@
     position: absolute;
     left: 146px;
     top: 193px;
-    font-family: 'Crimson Text', sans-serif;
+    font-family: 'Crimson Text', Arial, sans-serif;
     font-style: italic;
     font-weight: 400;
     font-size: 20px;
-    line-height: 26px;
+    line-height: 100%;
     color: #1E0606; 
 }
 
@@ -72,12 +79,10 @@
     height: 40px;
     left: 144px;
     top: 243px;
-
     display: flex;
-    flex-direction: row;
     align-items: center;
     background: #000000;
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', Arial, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -88,5 +93,17 @@
 .bt-text{
     align-items: center;
     justify-content: center;
+    text-transform: uppercase;
+}
+
+.shipping__text{
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 12px;
+    color: #FFFFFF;
+    background: #C29974;
+    padding: 11px 364px;
+    align-items: center;
+    flex-direction: row;
     text-transform: uppercase;
 }

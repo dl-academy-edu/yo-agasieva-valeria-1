@@ -26,6 +26,10 @@ a:hover {
     font-family: 'Open Sans', sans-serif;
 }
 
+button{
+    border: none;
+}
+
 .container{
     max-width: 1200px;
     margin: 50px auto;
