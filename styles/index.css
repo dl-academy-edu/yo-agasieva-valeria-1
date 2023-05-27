@@ -13,15 +13,16 @@
 
 .banner-nav__list {
     margin-top: 129px;
-    margin-left: 12px;
-    height: 411px;
-    padding: 17px 28px;
+    margin-left: 10px;
+    width: 1180px;
+    height: 371px;
+    padding: 20px 0px;
     background: #EEE4DB;
 }
 
 .banner-nav{
     display: flex;
-    margin: 11px 0px;
+    margin: 11px 31px;
     max-width: fit-content;
 }
 
@@ -44,6 +45,8 @@
 }
 
 .banner-number {
+    margin-left: 28px;
+    margin-bottom: 18px;
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 200;
@@ -68,8 +71,8 @@
 .banner-picture__img {
     position: absolute;
     width: 635px;
-    left: 460px;
-    top: -95px;
+    left: 456px;
+    top: -90px;
     z-index: 1;
 }
 
@@ -97,13 +100,87 @@
 }
 
 .shipping__text{
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', Arial, sans-serif;
+    width: 1180px;
     font-weight: 700;
     font-size: 12px;
     color: #FFFFFF;
     background: #C29974;
+    text-align: center;
     padding: 11px 364px;
-    align-items: center;
-    flex-direction: row;
     text-transform: uppercase;
+    margin-left: 10px;
+}
+
+.category__title{
+    font-size: 38px;
+    line-height: 100%;
+    margin: 95px 11px 35px;
+    max-width: 100%;
+}
+
+.category__list{
+    display: flex;
+    margin-left: 10px;
+    gap: 21px;
+}
+
+.category__link{
+    width: 208px;
+    height: 280px;
+}
+
+.category__img1{
+    padding: 46px 18px;
+    background: #DBE4DB;
+}
+
+.category__img2{
+    padding: 13px 36px;
+    background: #EADDD3;
+}
+
+.category__img3{
+    padding: 0px 5px;
+    background: #F8F2DA;
+}
+
+.category__img4{
+    padding: 10px 20px;
+    background: #D5D4E1;
+}
+
+.category__item{
+    position: relative;
+    z-index: -1;
+}
+.category__text{
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    position: absolute;
+    left: 70px;
+    top: 105px;
+    z-index: 1;
+    max-width: 50%;
+    text-align: center;
+}
+
+.toys{
+    position: absolute;
+    left: 103px;
+    top: 120px;
+    z-index: 1;
+    max-width: 50%;
+    text-align: center;
+}
+
+.accessories{
+    position: absolute;
+    left: 40px;
+    top: 120px;
+    z-index: 1;
+    max-width: 50%;
+    text-align: center;
 }
