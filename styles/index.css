@@ -122,6 +122,7 @@
 .category__list{
     display: flex;
     margin-left: 10px;
+    margin-bottom: 27px;
     gap: 21px;
 }
 
@@ -152,7 +153,6 @@
 
 .category__item{
     position: relative;
-    z-index: -1;
 }
 .category__text{
     font-family: 'Montserrat', Arial, sans-serif;
@@ -162,9 +162,16 @@
     position: absolute;
     left: 70px;
     top: 105px;
-    z-index: 1;
     max-width: 50%;
     text-align: center;
+}
+
+.category__text:hover{
+    text-decoration: underline;
+}
+
+.category__text:active{
+    text-decoration: underline;
 }
 
 .toys{
@@ -183,4 +190,197 @@
     z-index: 1;
     max-width: 50%;
     text-align: center;
+}
+
+.nav__info{
+    display: flex;
+    margin-left: 6px;
+    margin-bottom: 88px;
+}
+.category-control-left{
+    margin-left: 5px;
+    width: 37px;
+    height: 37px;
+    background-image: url(/pictures/left.svg);
+    background-repeat: no-repeat;
+    background-color:#70bbdc33;
+    background-position: center;
+}
+
+.category-control-right{
+    margin-left: 5px;
+    width: 37px;
+    height: 37px;
+    background-image: url(/pictures/right.svg);
+    background-repeat: no-repeat;
+    background-color:#70bbdc33;
+    background-position: center;
+}
+
+.category__quote{
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1E0606;
+    max-width: 55%;
+    margin-left: 21px;
+}
+
+.delivery{
+    display: flex;
+    margin-left: 10;
+    gap: 60px;
+}
+
+.delivery__img{
+    margin-left: 10px;
+}
+
+.delivery-list{
+    flex-direction: column;
+}
+
+.delivery-title{
+    margin: 30px 0px 6px 61px;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 46px;
+}
+
+.btn{
+margin-bottom: 30px;
+}
+
+.delivery__btn{
+    font-family: 'Crimson Text', Arial, sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 34px;
+    background: none;
+    margin-top: 17px;
+    margin-left: 61px;
+}
+
+.delivery__text1{
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    max-width: 75%;
+    margin: 32px 0px 15px 61px;
+}
+
+.delivery__text2{
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    max-width: 72%;
+    margin: 15px 0px 15px 61px;
+}
+
+.learn{
+    margin: 35px 0px 0px 61px;
+}
+
+.partners__list{
+    margin: 41px 0px 0px 9px;
+}
+
+.delivery-btn{
+    width: 149px;
+    height: 43px;
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 9px 22px;
+    background: #000000;
+}
+
+.partners{
+    display: flex;
+    gap: 119px;
+    margin-bottom: 40px;
+}
+
+.partners__list{
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.about{
+    display: flex;
+    gap: 100px;
+}
+
+.about-list{
+    margin-left: 10px;
+    background: #E1F0F7;
+    width: 1037px;
+    height: 228px;
+}
+
+.about-title{
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 46px;
+    text-transform: uppercase;
+    color: #1E0606;
+    margin-left: 30px;
+    margin-top: -25px;
+}
+
+.about-text{
+    font-family: 'Crimson Text', Arial, sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 34px;
+    color: #1E0606;
+    padding: 10px 30px ;
+}
+
+.about-excerpt{
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1E0606;
+    display: flex;
+    max-width: 95%;
+    background: #E1F0F7;
+    padding: 0px 0px 13px 30px;
+}
+
+.about-btn__itme{
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 9px 22px;
+    background: #000000;
+    margin: 7px 0px 0px 31px;
+}
+
+.about-contacts__list{
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    background: #E1F0F7;
 }
