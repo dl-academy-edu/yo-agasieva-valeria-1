@@ -76,16 +76,12 @@ header {
 
 .header-nav__link {
     font-family: 'Open Sans';
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;    
     line-height: 19px;
     display: flex;
     align-items: center;
     text-transform: uppercase;
-
-    /* Black */
-
     color: #1E0606;
 }
 
@@ -98,21 +94,19 @@ header {
 
 .footer-block{
     display: flex;
-    column-gap: 20px;
+    gap: 224px;
     text-transform: capitalize;
     border-bottom: 1px solid #666666;
-/* Title two (small, gray) */
     font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 22px;
     color: #AAAAAA;
+    margin: 70px 0px 59px 110px;
 }
 
 .footer-title{
-    column-gap: 20px;
     border-bottom: 1px solid #666666;
+    margin-bottom: 40px;
 }
 
 .footer-end {
