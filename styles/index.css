@@ -6,8 +6,8 @@
     position: absolute;
     width: 307px;
     height: 88px;
-    left: 146px;
-    top: 60px;
+    left: 143px;
+    top: 67px;
     line-height: 100%;
 }
 
@@ -58,8 +58,8 @@
 
 .banner-text{
     position: absolute;
-    left: 146px;
-    top: 193px;
+    left: 144px;
+    top: 196px;
     font-family: 'Crimson Text', Arial, sans-serif;
     font-style: italic;
     font-weight: 400;
@@ -70,7 +70,6 @@
 
 .banner-picture__img {
     position: absolute;
-    width: 635px;
     left: 456px;
     top: -90px;
     z-index: 1;
