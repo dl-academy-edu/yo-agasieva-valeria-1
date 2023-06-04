@@ -1,0 +1,46 @@
+*{
+    border: none;
+}
+.toys-title{
+    display: flex;
+    margin-top: 59px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+}
+
+.breadcrumps-list{
+    display: flex;
+    margin-left: 10px;
+    gap: 21px;
+}
+
+.breadcrumps__text{
+    font-family: 'Crimson Text', Arial, sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #1E0606;
+}
+
+.breadcrumps-nav__img{
+    margin-top: 8px;
+}
+
+.filtres{
+    display: flex;
+    background-color: #7d97da33;;
+}
+
+.filter__title{
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1E0606;
+}
+
+.color__checkbox, .delivery__checbox{
+    display: flex;
+    flex-direction: column;
+}

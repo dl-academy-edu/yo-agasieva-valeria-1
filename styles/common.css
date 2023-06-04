@@ -21,8 +21,7 @@ h1, h2 {
 a, 
 a:hover {
     text-decoration: none;
-    text-transform: uppercase;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', Arial, sans-serif;
 }
 
 button{
@@ -67,11 +66,22 @@ header {
 .header-search__list{
     display: flex;
     justify-content: end;
-    margin-right: 8px;
+    margin-right: 12px;
 } 
 
+.header-search__btn{
+    background-color: #FFFFFF;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #1E0606; 
+}
+
 .header-search__item:not(:last-child) {
-    margin-right: 23px;
+    margin-right: 25px;
 }
 
 .header-nav__link {
@@ -131,8 +141,8 @@ header {
     line-height: 22px;
 }
 
-.category__link {
-    color: #FFFFFF;
+.footer__link:hover{
+    opacity: 0.5;
 }
 
 .header-search__btn {
@@ -149,6 +159,11 @@ header {
 
 .footer-social__list {
     display: inline;
+}
+
+.footer-social__img{
+    border-radius: 15px;
+    background-repeat: no-repeat;
 }
 
 .footer-hidden {
@@ -172,6 +187,7 @@ header {
     color: #FFFFFF;
 }
 
+
 .footer__end-stars{
     position: relative;
     width: 5em;
@@ -181,11 +197,15 @@ header {
     background-repeat: repeat-x;
 }
 
+.information__raiting{
+    display: flex;
+    gap: 2px;
+}
 .raiting__stars{
     position: absolute;
-    top: 0;
-    left: 0;
-    margin: 0;
+    top: 0px;
+    left: 0px;
+    margin: 0px;
     width: 1em;
     height: 1em;
     background-size: 1em auto;

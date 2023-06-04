@@ -19,17 +19,16 @@
         <nav class="header__nav">
             <ul class="header__nav-list">
                 <li class="header-nav__item">
-                    <a class="header-nav__link" href="#">Blog</a></li>
+                    <a class="header-nav__link" href="../pages/blog.html">Blog</a></li>
                 <li class="header-nav__item">
-                    <a class="header-nav__link" href="#">Catalog</a></li>
+                    <a class="header-nav__link" href="../pages/catalog.html">Catalog</a></li>
                 <li class="header-nav__item">
-                    <a class="header-nav__link" href="#">About us</a></li>
+                    <a class="header-nav__link" href="../pages/contact.html">About us</a></li>
             </ul>
         </nav>
-        <uL class="header-search__list">
-            <li class="header-search__search"><img class="header-search" src="../pictures/XMLID1397.png" alt="search" width="17" height="17">
-                <input type="search">search</li>
-            <li class="header-search__btn"><a href="#">Contact us</a></li>
+            <uL class="header-search__list">
+                <li class="header-search__item"><img class="header-search-img" src="../pictures/XMLID1397.png" alt="search" width="17" height="17"></li>
+            <li class="header-search__item"><a class="header-search__btn" href="../pages/contact.html">Contact us</a></li>
         </uL>
     </header>
     <main>
@@ -73,10 +72,11 @@
         </section>
     </main>
     <footer>
-        <section class="footer container">
+        <section class="footer">
             <h3 class="footer-hidden">hidden footer</h3>
-                <p class="footer-title">Navigation</p>
+            <div  class="footer-block container">
             <ul class="footer__list">
+                <li class="footer-title"><p class="footer-text">Navigation</p></li>
                 <li class="footer__item"><a class="footer__link" href="#">About Us</a></li>
                 <li class="footer__item"><a class="footer__link" href="#">Blog</a></li>
                 <li class="footer__item"><a class="footer__link" href="#">Design Services</a></li>
@@ -84,8 +84,8 @@
                 <li class="footer__item"><a class="footer__link" href="#">2018 Holiday Catalog</a></li>
                 <li class="footer__item"><a class="footer__link" href="#">Shop By Designer</a></li>
             </ul>
-            <p class="footer-title">Customer Information</p> 
             <ul class="footer__list">
+                <li class="footer-title"><p class="footer-text">Customer Information</p> </li>
                 <li class="footer__item"><a class="footer__link" href="#">Contact Us</a></li>
                 <li class="footer__item"><a class="footer__link" href="#">Sale Exclusions</a></li>
                 <li class="footer__item"><a class="footer__link" href="#">Shipping & Returns</a></li> 
@@ -93,24 +93,35 @@
                 <li class="footer__item"><a class="footer__link" href="#">Privacy Policy</a></li>
                 <li class="footer__item"><a class="footer__link" href="#">Search</a></li>
             </ul>
-            <p class="footer-title">Connect</p> 
-            <form action="#" class="footer__enter">
-                <input type="email" name="email">
-            <button class="footer__btn">Join</button>
-            </form>
-            <ul class="footer-social__list">
-                <li class="footer-social__item"><a class="footer-social__link" href="#">Facebook</a></li>
-                <li class="footer-social__item"><a class="footer-social__link" href="#">Twitter</a></li>
-                <li class="footer-social__item"><a class="footer-social__link" href="#">Pinterest</a></li>
-                <li class="footer-social__item"><a class="footer-social__link" href="#">Instagram</a></li>
+            <ul class="footer__list">
+                <li class="footer-title"><p class="footer-text" tabindex="0">Connect</p></li>
+                <li><form class="footer__enter" action="e-mail">e-mail
+                        <button class="footer__btn">Join</button>
+                    </form>
+                </li>
+                <li class="social__title-item"><a href="/"><img src="../pictures/f.svg" alt="Facebook»"></a></li>
+                <li class="footer-social__item"><a class="footer-social__link-tw" href="#">Twitter</a></li>
+                <li class="footer-social__item"><a class="footer-social__link-pi" href="#">Pinterest</a></li>
+                <li class="footer-social__item"><a class="footer-social__link-ins" href="#">Instagram</a></li>
             </ul>
-            <ul class="iformation">
-                <li class="information__text">Company RatingCompany Rating &#9733;&#9733;&#9733;&#9733;&#9733;</li>
-                <li class="information__text">Copyright © 2018 Dlk • Design Life Kids</li>
-                <li class="information__text">Web Design — Direct Line Development</li>
+            </div>
+            <div class="footer__end container">
+            <ul class="footer__end-iformation">
+                <li class="footer__end-text"> Company Rating</li> 
+                <li class="footer__end-stars"><fieldset class="information__raiting">
+                    <legend class="information__raiting-title">Rating</legend>
+                        <input class="raiting__stars" type="radio" name="raiting stars" value="1" aria-label="terrible">
+                        <input class="raiting__stars" type="radio" name="raiting stars" value="2" aria-label="tolerably">
+                        <input class="raiting__stars" type="radio" name="raiting stars" value="3" aria-label="normal">
+                        <input class="raiting__stars" type="radio" name="raiting stars" value="4" aria-label="fine">
+                        <input class="raiting__stars" type="radio" name="raiting stars" value="5" aria-label="great">
+                    </fieldset>
+                </li>
+                <li class="footer__end-text">Copyright © 2018 Dlk • Design Life Kids</li>
+                <li class="footer__end-text">Web Design — Direct Line Development</li>
             </ul>
+            </div>
         </section>
     </footer>
-
 </body>
 </html>
