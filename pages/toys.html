@@ -37,36 +37,38 @@
             <h1 class="toys-title">Toy for kids</h1>
             <nav class="breadcrumps">
                 <ul class="breadcrumps-list">
-                    <li class="breadcrumps__link"><a class="breadcrumps__text" href="#">Home</a></li>
+                    <li class="breadcrumps__link"><a class="breadcrumps__text" href="../index.html">Home</a></li>
                     <li class="breadcrumps__img"><img class="breadcrumps-nav__img" src="../pictures/vector.png" alt="pointer"></li>
-                    <li class="breadcrumps__link"><a class="breadcrumps__text" href="#">Catalog</a></li>
+                    <li class="breadcrumps__link"><a class="breadcrumps__text" href="../pages/catalog.html">Catalog</a></li>
                     <li class="breadcrumps__img"><img class="breadcrumps-nav__img" src="../pictures/vector.png" alt="pointer"></li>
-                    <li class="breadcrumps__link"><a class="breadcrumps__text" href="#">Toys</a></li>  
+                    <li class="breadcrumps__link"><a class="breadcrumps__text" href="../pages/toys.html">Toys</a></li>  
                     </ul>
             </nav>
-        <form class="filtres" action ="toys-color">
+        </section>
+        <section class="filtres">
+        <form class="filtres__form container" action ="toys-color">
             <fieldset class="cost">
                 <legend class="filter__title">Cost</legend> 
-            <input class="cost__item" type="range" min="0" max="500">
+            <input class="styled-slider slider-progress" type="range" min="0" max="500">
             </fieldset>
-            <fieldset class="color__checkbox"> 
+            <fieldset class="color"> 
                 <legend class="filter__title">Color</legend>
-                    <input class="toys-ceckbox" type="checkbox">Black>
-                    <input class="toys-ceckbox" type="checkbox">Blue
-                    <input class="toys-ceckbox" type="checkbox">Green
-                    <input class="toys-ceckbox" type="checkbox">White
+                    <input id="colorChek" class="color__ceckbox" type="checkbox" name="Black"> <label for=""></label>
+                    <input id="colorChek" class="color__ceckbox" type="checkbox">Blue
+                    <input id="colorChek" class="color__ceckbox" type="checkbox">Green
+                    <input id="colorChek" class="color__ceckbox" type="checkbox">White
             </fieldset>   
-            <fieldset class="delivery__checbox">
+            <fieldset class="delivery">
                 <legend class="filter__title">Delivery</legend>
-                    <input class="shipping" type="radio" name="Free shipping">Free shipping
-                    <input class="shipping" type="radio" name="Fast shipping">Fast shipping
+                    <input class="deliveri__shipping" type="radio" name="Free shipping">Free shipping
+                    <input class="deliveri__shipping" type="radio" name="Fast shipping">Fast shipping
             </fieldset>
             <fieldset class="amount__btn">
                 <legend class="filter__title">Amount</legend>
                     <button class="amount__btn">0-5</button>
                     <button class="amount__btn">10-20</button>
                     <button class="amount__btn">20-50</button>
-                    <button class="amount__btn">Apply</button><a href="#"></a>
+                    <button class="amount__btn-apply">Apply</button><a href="#"></a>
             </fieldset>
         </form>
         </section>
@@ -163,5 +165,6 @@
             </div>
         </section>
     </footer>
+    <script src="range-input.js"></script>
 </body>
 </html>
