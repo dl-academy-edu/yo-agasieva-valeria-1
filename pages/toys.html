@@ -53,15 +53,25 @@
             </fieldset>
             <fieldset class="color"> 
                 <legend class="filter__title">Color</legend>
-                    <input id="colorChek" class="color__ceckbox" type="checkbox" name="Black"> <label for=""></label>
-                    <input id="colorChek" class="color__ceckbox" type="checkbox">Blue
-                    <input id="colorChek" class="color__ceckbox" type="checkbox">Green
-                    <input id="colorChek" class="color__ceckbox" type="checkbox">White
+                <ul class="color__list">
+                    <li class="color__item"><input class="color__ceckbox visualli__hidden" type="checkbox" id="black">
+                        <label class="color__lable" for="black">Black</label></li>
+                    <li class="color__item"><input class="color__ceckbox visualli__hidden" type="checkbox" id="blue">
+                        <label class="color__lable" for="blue">Blue</label></li>
+                    <li class="color__item"><input class="color__ceckbox visualli__hidden" type="checkbox" id="green">
+                        <label class="color__lable" for="green">Green</label></li>
+                    <li class="color__item"><input class="color__ceckbox visualli__hidden" type="checkbox" id="white">
+                        <label class="color__lable" for="white">White</label></li>
+                </ul>
             </fieldset>   
             <fieldset class="delivery">
                 <legend class="filter__title">Delivery</legend>
-                    <input class="deliveri__shipping" type="radio" name="Free shipping">Free shipping
-                    <input class="deliveri__shipping" type="radio" name="Fast shipping">Fast shipping
+                <ul class="deliveri__list">
+                    <li class="delivery__item"><input class="deliveri__shipping visualli__hidden" type="radio" id="Free shipping">
+                        <label class="deliveri__lable" for="Free shipping">Free shipping</label></li>
+                    <li class="delivery__item"><input class="deliveri__shipping visualli__hidden" type="radio" id="Fast shipping">
+                        <label class="deliveri__lable" for="Fast shipping">Fast shipping</label></li>
+                </ul>
             </fieldset>
             <fieldset class="amount__btn">
                 <legend class="filter__title">Amount</legend>
@@ -165,6 +175,6 @@
             </div>
         </section>
     </footer>
-    <script src="range-input.js"></script>
+    <script src="../cod.js/range-input.js"></script>
 </body>
 </html>

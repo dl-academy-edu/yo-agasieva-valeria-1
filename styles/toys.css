@@ -59,6 +59,7 @@
     font-weight: 700;
     font-size: 16px;
     line-height: 22px;
+    padding-bottom: 9px;
     color: #1E0606;
 }
 
@@ -68,8 +69,6 @@
 }
 
 .styled-slider{
-    height: 4px;
-    -webkit-appearance: none;
     margin: 10px 0;
     width: 188px;
 }
@@ -246,4 +245,60 @@ input[type=range].styled-slider.slider-progress:hover::-ms-fill-lower {
 
 input[type=range].styled-slider.slider-progress:active::-ms-fill-lower {
     background: #C29974;
+}
+
+.color__list{
+    width: 122px;
+}
+
+.color__item:not(:last-child){
+    margin-bottom: 30px;
+}
+
+.color__lable{
+    position: relative;
+    padding-left: 30px;
+}
+
+.color__lable::after,
+.color__lable::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 19px;
+    height: 19px;
+}
+
+.color__ceckbox + .color__lable::after{
+    background-image: url(../pictures/check.svg);
+}
+
+.color__ceckbox:checked + .color__lable::before{
+    background-image: url(../pictures/aktivche.png);
+}
+
+.delivery__item:not(:last-child){
+    margin-bottom: 15px;
+}
+
+.deliveri__lable{
+    position: relative;
+    padding-left: 30px;
+}
+
+.deliveri__lable::after,
+.deliveri__lable::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 20px;
+    height: 20px;
+}
+
+.deliveri__shipping + .deliveri__lable::before{
+    background-image: url(../pictures/radio.svg);
+}
+
+.deliveri__shipping:checked + .deliveri__lable::after{
+    background-image: url(../pictures/radioact.png);
 }
