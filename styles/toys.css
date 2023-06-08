@@ -39,11 +39,11 @@
 }
 
 .cost{
-    margin-right: 87px;
+    margin-right: 84px;
 }
 
 .color{
-    margin-right: 129px;
+    margin-right: 56px;
 }
 
 .color__ceckbox{
@@ -51,7 +51,7 @@
 }
 
 .delivery{
-    margin-right: 89px;
+    margin-right: 43px;
 }
 
 .filter__title{
@@ -59,7 +59,7 @@
     font-weight: 700;
     font-size: 16px;
     line-height: 22px;
-    padding-bottom: 9px;
+    padding-bottom: 8px;
     color: #1E0606;
 }
 
@@ -252,12 +252,18 @@ input[type=range].styled-slider.slider-progress:active::-ms-fill-lower {
 }
 
 .color__item:not(:last-child){
-    margin-bottom: 30px;
+    margin-bottom: 15px;
 }
 
 .color__lable{
     position: relative;
-    padding-left: 30px;
+    padding-left: 28px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1E0606;
 }
 
 .color__lable::after,
@@ -278,16 +284,21 @@ input[type=range].styled-slider.slider-progress:active::-ms-fill-lower {
 }
 
 .delivery__item:not(:last-child){
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
-.deliveri__lable{
+.delivery__lable{
     position: relative;
     padding-left: 30px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1E0606; 
 }
 
-.deliveri__lable::after,
-.deliveri__lable::before{
+.delivery__lable::after,
+.delivery__lable::before{
     content: '';
     position: absolute;
     left: 0;
@@ -295,10 +306,39 @@ input[type=range].styled-slider.slider-progress:active::-ms-fill-lower {
     height: 20px;
 }
 
-.deliveri__shipping + .deliveri__lable::before{
+.delivery__shipping + .delivery__lable::before{
     background-image: url(../pictures/radio.svg);
 }
 
-.deliveri__shipping:checked + .deliveri__lable::after{
+.delivery__shipping:checked + .delivery__lable::after{
     background-image: url(../pictures/radioact.png);
+}
+
+.amount__item{
+    display: inline;
+    margin: -4px;
+    padding: 0;
+}
+
+.amount__lable{
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1E0606;
+    padding: 10px 25px;
+    background: #ffffff;
+    cursor: pointer;
+}
+
+.amount__btn-apply{
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    margin-left: 61px;
+    padding: 10px 22px;
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color: #000000;
 }
