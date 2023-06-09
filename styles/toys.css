@@ -1,6 +1,7 @@
 *{
     border: none;
 }
+
 .toys-title{
     display: flex;
     margin-top: 59px;
@@ -30,7 +31,8 @@
 }
 
 .filtres{
-    background-color: #7d97da33;;
+    background-color: #7d97da33;
+    height: 254px;
 }
 
 .filtres__form{
@@ -326,19 +328,100 @@ input[type=range].styled-slider.slider-progress:active::-ms-fill-lower {
     font-size: 16px;
     line-height: 22px;
     color: #1E0606;
-    padding: 10px 25px;
-    background: #ffffff;
+    padding: 6px 23px;
+    background: #ffffff; 
     cursor: pointer;
 }
 
-.amount__btn-apply{
+.amount__lable::after,
+.amount__lable::before{
+    content: '';
+    background: #ffffff;
+}
+
+
+.amount__list, .amount__chek:checked + .amount__lable{
+    background: #F3D0DB;
+}
+
+.amount__chek + .amount__lable::after{
+    background: #F3D0DB;
+}
+
+.filter__btn-apply{
     font-family: 'Open Sans';
     font-weight: 700;
     font-size: 16px;
     line-height: 22px;
-    margin-left: 61px;
+    margin-left: 50px;
+    margin-top: 37px;
     padding: 10px 22px;
     text-transform: uppercase;
     color: #ffffff;
     background-color: #000000;
+}
+
+.toys__list{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 59px;
+    margin-left: 10px;
+    gap: 47px 20px;
+}
+
+.toys__name{
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: #1E0606;
+    padding: 25px 8px 16px 9px
+}
+
+.toys__price{
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #1E0606; 
+}
+
+.pages{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 23px;
+}
+
+.pages__list{
+    display: flex;
+    gap: 64px;
+    padding: 4px 0px 14px 2px;
+}
+
+.pages__item-left,
+.pages__item-right{
+    margin: 0; 
+    padding: 0; 
+    border: 0; 
+    outline: none; 
+    background-color: transparent;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+.pages__nav{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #1E0606; 
+    gap: 64px;
+}
+
+.footer-block{
+    padding-top: 100px;
 }

@@ -33,7 +33,7 @@
         </uL>
     </header>
     <main class="toys">
-        <section class="toys container">
+        <section class="toys__breadcrumps container">
             <h1 class="toys-title">Toy for kids</h1>
             <nav class="breadcrumps">
                 <ul class="breadcrumps-list">
@@ -82,55 +82,57 @@
                         <label class="amount__lable" for="10-20">10-20</label></li>
                     <li class="amount__item"><input class="amount__chek visualli__hidden" type="radio" name="amount" id="20-50">
                         <label class="amount__lable" for="20-50">20-50</label></li>
-                    <li class="amount__item"><button class="amount__btn-apply">Apply</button></li>    
                 </ul>
             </fieldset>
+            <div class="">
+                <button class="filter__btn-apply">Apply</button>
+            </div> 
         </form>
         </section>
-        <section class="toys container">
-            <h2 class="hidden header">Catologe Toy</h2>
+        <section class="toys__catalog container">
+            <h2 class="hidden__header">Catologe Toy</h2>
                 <ul class="toys__list">
-                    <li class="">
+                    <li class="toys__item">
                         <a href="#"><img class="toys__img" src="../pictures/shark.png" alt="SHARKY BEAN BAG CHAIR COVER">
                             <p class="toys__name">SHARKY BEAN BAG CHAIR COVER</p>
-                            <p>$60.00 USD</p></a></li>
-                    <li class="">
+                            <p class="toys__price">$60.00 USD</p></a></li>
+                    <li class="toys__item">
                         <a href="#"><img class="toys__img" src="../pictures/suspension.png" alt="BRASS DECO FRAMES">
                             <p class="toys__name">BRASS DECO FRAMES</p>
-                            <p>$66.00 USD</p></a>
+                            <p class="toys__price">$66.00 USD</p></a>
                         </li>                    
-                    <li class="">
+                    <li class="toys__item">
                         <a href="#"><img class="toys__img" src="../pictures/apron.png" alt="CIBO FULL APRON">
                             <p class="toys__name">CIBO FULL APRON</p>
-                            <p>$60.00 USD</p></a></li>
-                    <li class="">
+                            <p class="toys__price">$60.00 USD</p></a></li>
+                    <li class="toys__item">
                         <a href="#"><img class="toys__img" src="../pictures/gamtoy.png" alt="GATCHA GATCHA GUMBALL MACHINE">
                             <p class="toys__name">GATCHA GATCHA GUMBALL MACHINE</p>
-                            <p>$56.00 USD</p></a></li>
-                    <li class="">
+                            <p class="toys__price">$56.00 USD</p></a></li>
+                    <li class="toys__item">
                         <a href="#"><img class="toys__img" src="../pictures/candle.png" alt="CHRISTMAS ADVENT SCENTED CANDLE">
                             <p class="toys__name">CHRISTMAS ADVENT SCENTED CANDLE</p>
-                            <p>$29.00 USD</p></a></li>
-                    <li class="">
+                            <p class="toys__price">$29.00 USD</p></a></li>
+                    <li class="toys__item">
                         <a href="#"><img class="toys__img" src="../pictures/lamp.png" alt="TANGLE SPINNING TEA LIGHT">
                             <p class="toys__name">TANGLE SPINNING TEA LIGHT</p>
-                            <p>$56.00 USD</p></a></li>
+                            <p class="toys__price">$56.00 USD</p></a></li>
                 </ul>
         </section>
         <div class="pages container">
-            <button class="pages__item"><img src="../pictures/left.png" alt="left arrow"></button>
+            <button class="pages__item-left"><img src="../pictures/tleft.svg" alt="left arrow"></button>
             <ol class="pages__list">
-                <li class="pages__item"><button class="pages__btn">1</button></li>
-                <li class="pages__item"><button class="pages__btn">2</button></li>
-                <li class="pages__item"><button class="pages__btn">3</button></li>
-                <li class="pages__item"><button class="pages__btn">4</button></li>
+                <li class="pages__item"><a class="pages__nav" href="#">1</a></li>
+                <li class="pages__item"><a class="pages__nav" href="#">2</a></li>
+                <li class="pages__item"><a class="pages__nav" href="#">3</a></li>
+                <li class="pages__item"><a class="pages__nav" href="#">4</a></li>
             </ol>
-            <button class="pages__item"><img src="../pictures/right.png" alt="right arrow"></button>
+            <button class="pages__item-right"><img src="../pictures/tright.svg" alt="right arrow"></button>
         </div>
     </main>
     <footer>
         <section class="footer">
-            <h3 class="footer-hidden">hidden footer</h3>
+            <h3 class="hidden__header">hidden footer</h3>
             <div  class="footer-block container">
             <ul class="footer__list">
                 <li class="footer-title"><p class="footer-text">Navigation</p></li>
@@ -166,12 +168,12 @@
             <ul class="footer__end-iformation">
                 <li class="footer__end-text"> Company Rating</li> 
                 <li class="footer__end-stars"><fieldset class="information__raiting">
-                    <legend class="information__raiting-title">Rating</legend>
-                        <input class="raiting__stars" type="radio" name="raiting stars" value="1" aria-label="terrible">
-                        <input class="raiting__stars" type="radio" name="raiting stars" value="2" aria-label="tolerably">
-                        <input class="raiting__stars" type="radio" name="raiting stars" value="3" aria-label="normal">
-                        <input class="raiting__stars" type="radio" name="raiting stars" value="4" aria-label="fine">
-                        <input class="raiting__stars" type="radio" name="raiting stars" value="5" aria-label="great">
+                    <legend class="hidden__header">Rating</legend>
+                        <input class="raiting__stars width" type="radio" name="raiting stars" value="1" aria-label="terrible">
+                        <input class="raiting__stars width" type="radio" name="raiting stars" value="2" aria-label="tolerably">
+                        <input class="raiting__stars width" type="radio" name="raiting stars" value="3" aria-label="normal">
+                        <input class="raiting__stars width" type="radio" name="raiting stars" value="4" aria-label="fine">
+                        <input class="raiting__stars width" type="radio" name="raiting stars" value="5" aria-label="great">
                     </fieldset>
                 </li>
                 <li class="footer__end-text">Copyright © 2018 Dlk • Design Life Kids</li>
