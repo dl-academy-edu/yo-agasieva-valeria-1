@@ -36,9 +36,9 @@
         <h1 class="blog__title">Blog</h1>
             <nav class="breadcrumps">
                 <ul class="breadcrumps-list">
-                    <li class="breadcrumps__link"><a href="#">Home</a></li>
-                    <li class="breadcrumps__img"><img class="category-nav__img" src="../pictures/vector.png" alt="pointer"></li>
-                    <li class="breadcrumps__link"><a href="#">Blog</a></li>
+                    <li class="breadcrumps__link"><a class="breadcrumps__text" href="#">Home</a></li>
+                    <li class="breadcrumps__img"><img class="breadcrumps-nav__img" src="../pictures/vector.png" alt="pointer"></li>
+                    <li class="breadcrumps__link"><a class="breadcrumps__text" href="#">Blog</a></li>
                 </ul>
             </nav>
             <ul class="blog-list">
@@ -98,16 +98,16 @@
                 </li>
             </ul>
         </section>
-    <div class="pages">
-        <button class="pages__item"><img src="../pictures/left.jpg" alt="left arrow"></button>
-        <ol class="pages__list">
-            <li class="pages__item"><button class="pages__btn">1</button></li>
-            <li class="pages__item"><button class="pages__btn">2</button></li>
-            <li class="pages__item"><button class="pages__btn">3</button></li>
-            <li class="pages__item"><button class="pages__btn">4</button></li>
-        </ol>
-        <button class="pages__item"><img src="../pictures/right.jpg" alt="right arrow"></button>
-    </div>
+        <div class="pages container">
+            <button class="pages__item-left"><img src="../pictures/tleft.svg" alt="left arrow"></button>
+            <ol class="pages__list">
+                <li class="pages__item"><a class="pages__nav actpage" href="#">1</a></li>
+                <li class="pages__item"><a class="pages__nav" href="#">2</a></li>
+                <li class="pages__item"><a class="pages__nav" href="#">3</a></li>
+                <li class="pages__item"><a class="pages__nav" href="#">4</a></li>
+            </ol>
+            <button class="pages__item-right"><img src="../pictures/tright.svg" alt="right arrow"></button>
+        </div>
     </main>
     <footer>
         <section class="footer">

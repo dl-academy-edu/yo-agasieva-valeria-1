@@ -10,26 +10,6 @@
     margin-top: 60px;
 }
 
-.breadcrumps-list{
-    display: flex;
-    margin-left: 10px;
-    gap: 21px;
-    margin-bottom: 50px;
-}
-
-.breadcrumps__text{
-    font-family: 'Crimson Text', Arial, sans-serif;
-    font-style: italic;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 26px;
-    color: #1E0606;
-}
-
-.breadcrumps-nav__img{
-    margin-top: 8px;
-}
-
 .filtres{
     background-color: #7d97da33;
     height: 254px;
@@ -329,12 +309,13 @@ input[type=range].styled-slider.slider-progress:active::-ms-fill-lower {
     line-height: 22px;
     color: #1E0606;
     padding: 6px 23px;
+    max-width: 80px;
+    max-height: 35px;
     background: #ffffff; 
     cursor: pointer;
 }
 
-.amount__lable::after,
-.amount__lable::before{
+.amount__lable{
     content: '';
     background: #ffffff;
 }
@@ -344,9 +325,11 @@ input[type=range].styled-slider.slider-progress:active::-ms-fill-lower {
     background: #F3D0DB;
 }
 
-.amount__chek + .amount__lable::after{
-    background: #F3D0DB;
+.amount__chek:hover + .amount__lable{
+    background: #EDDEEB;
 }
+
+
 
 .filter__btn-apply{
     font-family: 'Open Sans';
@@ -369,6 +352,36 @@ input[type=range].styled-slider.slider-progress:active::-ms-fill-lower {
     gap: 47px 20px;
 }
 
+.toys__info{
+    position: relative;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 29px;
+    text-transform: uppercase;
+    color: #1E0606;
+    text-shadow: 0px 0px 40px #93030340;
+    max-width: 207px;
+    margin-top: -302px;
+    margin-left: 89px;
+    margin-bottom: 95px;
+    background: #E5EAF8;
+    opacity: 0;
+    text-align: center;
+    padding: 82px 12px 96px 11px;
+}
+
+.toys__info:hover{
+    opacity: 1;
+    background: #e5eaf8ea;
+}
+
+.toys__info:active{
+    opacity: 0.9;
+    opacity: #e5eaf807;
+}
+
 .toys__name{
     font-family: 'Open Sans';
     font-weight: 400;
@@ -386,40 +399,6 @@ input[type=range].styled-slider.slider-progress:active::-ms-fill-lower {
     line-height: 22px;
     text-align: center;
     color: #1E0606; 
-}
-
-.pages{
-    display: flex;
-    justify-content: space-between;
-    padding-top: 23px;
-}
-
-.pages__list{
-    display: flex;
-    gap: 64px;
-    padding: 4px 0px 14px 2px;
-}
-
-.pages__item-left,
-.pages__item-right{
-    margin: 0; 
-    padding: 0; 
-    border: 0; 
-    outline: none; 
-    background-color: transparent;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-
-.pages__nav{
-    font-family: 'Montserrat';
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 20px;
-    text-transform: uppercase;
-    color: #1E0606; 
-    gap: 64px;
 }
 
 .footer-block{

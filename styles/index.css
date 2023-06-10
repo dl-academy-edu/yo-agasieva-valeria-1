@@ -270,10 +270,6 @@
     margin-left: 10px;
 }
 
-.delivery-list{
-    flex-direction: column;
-}
-
 .delivery-title{
     margin: 30px 0px 6px 61px;
     font-weight: 700;
@@ -294,6 +290,22 @@ margin-bottom: 30px;
     background: none;
     margin-top: 17px;
     margin-left: 61px;
+}
+
+.delivery__btn:hover,
+.chekt{
+    font-family: 'Crimson Text';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 34px;  
+    color: #1E0606;
+    background-color: #70bbdc33;
+    padding: 11px 180px 11px 60px;
+    margin-left: 1px;
+    margin-top: 0;
+    margin-bottom: -7px;
+    max-width: 326px;
 }
 
 .delivery__text1{
@@ -335,6 +347,15 @@ margin-bottom: 30px;
     padding: 9px 22px;
     background: #000000;
 }
+
+.delivery-btn:hover{
+    background-color: #C29974;
+}
+
+.delivery-btn:active{
+    background-color: #CFAF91;
+}
+
 
 .partners{
     display: flex;

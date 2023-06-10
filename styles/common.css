@@ -77,6 +77,14 @@ header {
     margin-right: 21px;
 }
 
+.header-search__item:hover{
+    opacity: 0.5;
+}
+
+.header-search__item:active{
+    opacity: 0.2;
+}
+
 .header-search__list{
     display: flex;
     justify-content: end;
@@ -297,4 +305,85 @@ header {
     overflow: hidden;
     clip: rect(0 0 0 0);
     clip-path: inset(100%);
+}
+
+.category__title {
+    margin: 59px 0 15px 11px;
+}
+
+.breadcrumps-list{
+    display: flex;
+    margin-left: 10px;
+    gap: 21px;
+    margin-bottom: 50px;
+}
+
+.breadcrumps__text{
+    font-family: 'Crimson Text', Arial, sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #1E0606;
+}
+
+.breadcrumps-nav__img{
+    margin-top: 8px;
+}
+
+.breadcrumps__text:hover{
+    opacity: 0.5;
+}
+
+.pages{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 23px;
+}
+
+.pages__list{
+    display: flex;
+    gap: 64px;
+    padding: 4px 0px 14px 2px;
+}
+
+.pages__item-left,
+.pages__item-right{
+    margin: 0; 
+    padding: 0; 
+    border: 0; 
+    outline: none; 
+    background-color: transparent;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.pages__item-left:hover{
+    background: none;
+    background-image: url(../pictures/rotatehovervektor.svg);
+    background-repeat: no-repeat;
+
+}
+.pages__item-right:hover{
+    background: none;
+    background-image: url(../pictures/hovervektor.svg);
+    background-repeat: no-repeat;
+}
+
+.pages__nav{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #1E0606;
+}
+
+.pages__nav:hover{
+    color: #AAAAAA;
+}
+
+.pages__nav:active,
+.actpage{
+    color: #C29974;
 }
