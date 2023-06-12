@@ -7,6 +7,7 @@
     <title>Contact</title>
     <link rel="stylesheet" href="../styles/normalize.css">
     <link rel="stylesheet" href="../styles/common.css">
+    <link rel="stylesheet" href="../styles/contact.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,400;1,700&family=Montserrat:wght@700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
@@ -32,12 +33,12 @@
         </uL>
     </header>
     <main>
-        <section class="container contact">
+        <section class="contact container">
             <h1 class="contact__title">Contact  Us</h1>
             <nav class="breadcrumps">
                 <ul class="breadcrumps-list">
                     <li class="breadcrumps__link"><a class="breadcrumps__text" href="#">Home</a></li>
-                    <li class="breadcrumps__img"><img class=".breadcrumps-nav__img" src="../pictures/vector.png" alt="pointer"></li>
+                    <li class="breadcrumps__img"><img class="breadcrumps-nav__img" src="../pictures/vector.png" alt="pointer"></li>
                     <li class="breadcrumps__link"><a class="breadcrumps__text" href="#">Contact Us</a></li>
                 </ul>
             </nav>
@@ -49,26 +50,26 @@
                 <div class="contact-input">
                     <div class="contact__lable-wrapper">
                         <label class="contact__lable" for="Phone">Phone</label>
-                        <input class="contact__input" type="tel" id="Phone">
+                        <input class="contact__input-form" type="tel" id="Phone">
                     </div>
                     <div class="contact__lable-wrapper">
                         <label class="contact__lable" for="Email">Email</label>
-                        <input class="contact__input" type="email" id="Email">
+                        <input class="contact__input-form" type="email" id="Email">
                     </div>
                 </div>
                 <div class="contact__lable-wrapper">
                     <label class="contact__lable" for="Message">Message</label>
-                    <input class="contact__input" type="text" id="Message">
+                    <textarea class="contact__area" id="Message" cols="30" rows="10"></textarea>
                 </div>
                 <input class="contact__checkbox" type="checkbox">
                 <p class="contact__text">By clicking on the button, you consent to the processing of your personal data</p>
                 <button class="contact__btn">Submit</button>
+            </form>
                 <ul>
                     <li class="contact__text" ><p>Our support team are on-hand to assist with any issues you are experiencing.</p></li>
                     <li class="contact__text" ><p>Please use the form to contact us with your needs. Send us a message and we'll respond as soon as possible.</p></li>
                     <li class="contact__text" ><a href="#"></a> An expert is waiting to help you!</li>
                 </ul>
-            </form>
         </section>
     </main>
     <footer>
@@ -99,10 +100,10 @@
                         <button class="footer__btn">Join</button>
                     </form>
                 </li>
-                <li class="social__title-item"><a href="/"><img src="../pictures/f.svg" alt="Facebook»"></a></li>
-                <li class="footer-social__item"><a class="footer-social__link-tw" href="#">Twitter</a></li>
-                <li class="footer-social__item"><a class="footer-social__link-pi" href="#">Pinterest</a></li>
-                <li class="footer-social__item"><a class="footer-social__link-ins" href="#">Instagram</a></li>
+                <li class="footer-social__item"><a class="footer-social__link-fb" href="#"><img class="footer-social__img" src="../pictures/f.svg" alt="Facebook»"></a></li>
+                <li class="footer-social__item"><a class="footer-social__link-tw" href="#"><img class="footer-social__img" src="../pictures/twitter.svg" alt="Twitter»"></a></li>
+                <li class="footer-social__item"><a class="footer-social__link-pi" href="#"><img class="footer-social__img" src="../pictures/Pinterest.svg" alt="Pinterest»"></a></li>
+                <li class="footer-social__item"><a class="footer-social__link-ins" href="#"><img class="footer-social__img" src="../pictures/Shape.svg" alt="Instagram»"></a></li>
             </ul>
             </div>
             <div class="footer__end container">

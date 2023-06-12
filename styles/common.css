@@ -360,13 +360,25 @@ header {
 
 .pages__item-left:hover{
     background: none;
-    background-image: url(../pictures/rotatehovervektor.svg);
+    background-image: url(../pictures/hoverle.svg);
     background-repeat: no-repeat;
-
 }
+
+.pages__item-left:active{
+    background: none;
+    background-image: url(../pictures/aktleft.svg);
+    background-repeat: no-repeat;
+}
+
 .pages__item-right:hover{
     background: none;
     background-image: url(../pictures/hovervektor.svg);
+    background-repeat: no-repeat;
+}
+
+.pages__item-right:active{
+    background: none;
+    background-image: url(../pictures/aktive.svg);
     background-repeat: no-repeat;
 }
 
