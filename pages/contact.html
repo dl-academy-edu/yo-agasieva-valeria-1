@@ -42,6 +42,7 @@
                     <li class="breadcrumps__link"><a class="breadcrumps__text" href="#">Contact Us</a></li>
                 </ul>
             </nav>
+            <div class="contact__container">
             <form class="contact__form" action="#" method="post">
                 <div class="contact-name">
                     <label class="contact__lable" for="Name">Name</label>
@@ -59,17 +60,18 @@
                 </div>
                 <div class="contact__lable-wrapper">
                     <label class="contact__lable" for="Message">Message</label>
-                    <textarea class="contact__area" id="Message" cols="30" rows="10"></textarea>
+                    <textarea class="contact__area" id="Message" cols="69" rows="8"></textarea>
                 </div>
-                <input class="contact__checkbox" type="checkbox">
-                <p class="contact__text">By clicking on the button, you consent to the processing of your personal data</p>
+                <input class="contact__checkbox visualli__hidden" type="checkbox" id="agreement">
+                <label class="contact-agreement__lable" for="agreement">By clicking on the button, you consent to the processing of your personal data</label>
                 <button class="contact__btn">Submit</button>
             </form>
-                <ul>
-                    <li class="contact__text" ><p>Our support team are on-hand to assist with any issues you are experiencing.</p></li>
-                    <li class="contact__text" ><p>Please use the form to contact us with your needs. Send us a message and we'll respond as soon as possible.</p></li>
-                    <li class="contact__text" ><a href="#"></a> An expert is waiting to help you!</li>
+                <ul class="contact__ifoform">
+                    <li class="contact__text"><p class="contact__inform">Our support team are on-hand to assist with any issues you are experiencing.</p></li>
+                    <li class="contact__text"><p class="contact__inform">Please use the form to contact us with your needs. Send us a message and we'll respond as soon as possible.</p></li>
+                    <li class="contact__text"><p class="contact__announcement"> An expert is waiting to help you!</p></li>
                 </ul>
+            </div>
         </section>
     </main>
     <footer>
@@ -96,14 +98,16 @@
             </ul>
             <ul class="footer__list">
                 <li class="footer-title"><p class="footer-text" tabindex="0">Connect</p></li>
-                <li><form class="footer__enter" action="e-mail">e-mail
-                        <button class="footer__btn">Join</button>
+                <li class="footer__input">
+                    <label class="footer__lable" for="Email"></label>
+                    <input class="footer__form" type="email" id="Email" placeholder="Email">
+                    <button class="footer__btn">Join</button>
                     </form>
                 </li>
-                <li class="footer-social__item"><a class="footer-social__link-fb" href="#"><img class="footer-social__img" src="../pictures/f.svg" alt="Facebook»"></a></li>
+                <li class="footer-social__item"><a class="footer-social__link-fb" href="#"><img class="footer-social__img" src="../pictures/Facebook.svg" alt="Facebook»"></a></li>
                 <li class="footer-social__item"><a class="footer-social__link-tw" href="#"><img class="footer-social__img" src="../pictures/twitter.svg" alt="Twitter»"></a></li>
                 <li class="footer-social__item"><a class="footer-social__link-pi" href="#"><img class="footer-social__img" src="../pictures/Pinterest.svg" alt="Pinterest»"></a></li>
-                <li class="footer-social__item"><a class="footer-social__link-ins" href="#"><img class="footer-social__img" src="../pictures/Shape.svg" alt="Instagram»"></a></li>
+                <li class="footer-social__item"><a class="footer-social__link-ins" href="#"><img class="footer-social__img" src="../pictures/Instagram.svg" alt="Instagram»"></a></li>
             </ul>
             </div>
             <div class="footer__end container">
@@ -111,11 +115,11 @@
                 <li class="footer__end-text"> Company Rating</li> 
                 <li class="footer__end-stars"><fieldset class="information__raiting">
                     <legend class="hidden__header">Rating</legend>
-                        <input class="raiting__stars" type="radio" name="raiting stars" value="1" aria-label="terrible">
-                        <input class="raiting__stars" type="radio" name="raiting stars" value="2" aria-label="tolerably">
-                        <input class="raiting__stars" type="radio" name="raiting stars" value="3" aria-label="normal">
-                        <input class="raiting__stars" type="radio" name="raiting stars" value="4" aria-label="fine">
-                        <input class="raiting__stars" type="radio" name="raiting stars" value="5" aria-label="great">
+                        <input class="raiting__stars width" type="radio" name="raiting stars" value="1" aria-label="terrible">
+                        <input class="raiting__stars width" type="radio" name="raiting stars" value="2" aria-label="tolerably">
+                        <input class="raiting__stars width" type="radio" name="raiting stars" value="3" aria-label="normal">
+                        <input class="raiting__stars width" type="radio" name="raiting stars" value="4" aria-label="fine">
+                        <input class="raiting__stars width" type="radio" name="raiting stars" value="5" aria-label="great">
                     </fieldset>
                 </li>
                 <li class="footer__end-text">Copyright © 2018 Dlk • Design Life Kids</li>
