@@ -48,11 +48,15 @@
         <section class="filtres">
         <form class="filtres__form container" action ="toys-color">
             <fieldset class="cost">
-                <legend class="filter__title">Cost</legend> 
-            <input class="styled-slider slider-progress" type="range" min="0" max="500">
+                <legend class="filtres__title">Cost</legend> 
+            <input class=" styled-slider slider-progress" type="range" min="0" max="500" id="quantity">
+            <div class="filtres-quantity__namber">
+                <label class="filtres-quantity" for="quantity">0</label>
+                <label class="filtres-quantity" for="quantity">500</label>
+            </div>
             </fieldset>
             <fieldset class="color"> 
-                <legend class="filter__title">Color</legend>
+                <legend class="filtres__title">Color</legend>
                 <ul class="color__list">
                     <li class="color__item"><input class="color__ceckbox visualli__hidden" type="checkbox" id="black">
                         <label class="color__lable" for="black">Black</label></li>
@@ -62,31 +66,30 @@
                         <label class="color__lable" for="green">Green</label></li>
                     <li class="color__item"><input class="color__ceckbox visualli__hidden" type="checkbox" id="white">
                         <label class="color__lable" for="white">White</label></li>
-
                 </ul>
             </fieldset>   
-            <fieldset class="delivery">
-                <legend class="filter__title">Delivery</legend>
-                <ul class="delivery__list">
-                    <li class="delivery__item"><input class="delivery__shipping visualli__hidden" name="Delivery" type="radio" id="Free">
-                        <label class="delivery__lable" for="Free">Free shipping</label></li>
-                    <li class="delivery__item"><input class="delivery__shipping visualli__hidden" name="Delivery" type="radio" id="Fast">
-                        <label class="delivery__lable" for="Fast">Fast shipping</label></li>
+            <fieldset class="filtres-delivery">
+                <legend class="filtres__title">Delivery</legend>
+                <ul class="filtres-delivery__list">
+                    <li class="filtres-delivery__item"><input class="filtres-delivery__shipping visualli__hidden" name="filtres-delivery" type="radio" id="Free">
+                        <label class="filtres-delivery__lable" for="Free">Free shipping</label></li>
+                    <li class="filtres-delivery__item"><input class="filtres-delivery__shipping visualli__hidden" name="filtres-delivery" type="radio" id="Fast">
+                        <label class="filtres-delivery__lable" for="Fast">Fast shipping</label></li>
                 </ul>
             </fieldset>
-            <fieldset class="amount">
-                <legend class="filter__title">Amount</legend>
-                <ul class="amount__list">
-                    <li class="amount__item"><input class="amount__chek visualli__hidden" type="radio" name="amount" id="0-5">
-                        <label class="amount__lable" for="0-5">0-5</label></li>
-                    <li class="amount__item"><input class="amount__chek visualli__hidden" type="radio" name="amount" id="10-20">
-                        <label class="amount__lable" for="10-20">10-20</label></li>
-                    <li class="amount__item"><input class="amount__chek visualli__hidden" type="radio" name="amount" id="20-50">
-                        <label class="amount__lable" for="20-50">20-50</label></li>
+            <fieldset class="filtres-amount">
+                <legend class="filtres__title">Amount</legend>
+                <ul class="filtres-amount__list">
+                    <li class="filtres-amount__item"><input class="filtres-amount__chek visualli__hidden" type="radio" name="filtres-amount" id="0-5">
+                        <label class="filtres-amount__lable" for="0-5">0-5</label></li>
+                    <li class="filtres-amount__item"><input class="filtres-amount__chek visualli__hidden" type="radio" name="filtres-amount" id="10-20">
+                        <label class="filtres-amount__lable" for="10-20">10-20</label></li>
+                    <li class="filtres-amount__item"><input class="filtres-amount__chek visualli__hidden" type="radio" name="filtres-amount" id="20-50">
+                        <label class="filtres-amount__lable" for="20-50">20-50</label></li>
                 </ul>
             </fieldset>
             <div class="">
-                <button class="filter__btn-apply">Apply</button>
+                <button class="filtres__btn-apply">Apply</button>
             </div> 
         </form>
         </section>
@@ -143,7 +146,7 @@
             <ul class="footer__list">
                 <li class="footer-title"><p class="footer-text">Navigation</p></li>
                 <li class="footer__item"><a class="footer__link" href="#">About Us</a></li>
-                <li class="footer__item"><a class="footer__link" href="#">Blog</a></li>
+                <li class="footer__item"><a class="footer__link" href="../pages/blog.html">Blog</a></li>
                 <li class="footer__item"><a class="footer__link" href="#">Design Services</a></li>
                 <li class="footer__item"><a class="footer__link" href="#">Featured On</a></li>
                 <li class="footer__item"><a class="footer__link" href="#">2018 Holiday Catalog</a></li>
@@ -151,7 +154,7 @@
             </ul>
             <ul class="footer__list">
                 <li class="footer-title"><p class="footer-text">Customer Information</p> </li>
-                <li class="footer__item"><a class="footer__link" href="#">Contact Us</a></li>
+                <li class="footer__item"><a class="footer__link" href="../pages/contact.html">Contact Us</a></li>
                 <li class="footer__item"><a class="footer__link" href="#">Sale Exclusions</a></li>
                 <li class="footer__item"><a class="footer__link" href="#">Shipping & Returns</a></li> 
                 <li class="footer__item"><a class="footer__link" href="#">Terms & Conditions</a></li>
@@ -160,9 +163,10 @@
             </ul>
             <ul class="footer__list">
                 <li class="footer-title"><p class="footer-text" tabindex="0">Connect</p></li>
-                <li><form class="footer__enter" action="e-mail">e-mail
-                        <button class="footer__btn">Join</button>
-                    </form>
+                <li class="footer__input">
+                    <label class="footer__lable" for="Emailfooter"></label>
+                    <input class="footer__form" type="email" id="Emailfooter" placeholder="Email">
+                    <button class="footer__btn">Join</button>
                 </li>
                 <li class="footer-social__item"><a class="footer-social__link-fb" href="#"><img class="footer-social__img" src="../pictures/Facebook.svg" alt="Facebook»"></a></li>
                 <li class="footer-social__item"><a class="footer-social__link-tw" href="#"><img class="footer-social__img" src="../pictures/twitter.svg" alt="Twitter»"></a></li>

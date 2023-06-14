@@ -455,3 +455,7 @@ margin-bottom: 30px;
     margin-left: 33px;
 }
 
+.contact__container{
+    opacity: 0;
+}
+

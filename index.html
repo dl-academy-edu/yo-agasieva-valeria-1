@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./styles/normalize.css">
     <link rel="stylesheet" href="./styles/common.css">
     <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="/styles/contact.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,400;1,700&family=Montserrat:wght@200;700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
@@ -151,14 +152,16 @@
             </ul>
             <ul class="footer__list">
                 <li class="footer-title"><p class="footer-text" tabindex="0">Connect</p></li>
-                <li><form class="footer__enter" action="e-mail">e-mail
-                        <button class="footer__btn">Join</button>
+                <li class="footer__input">
+                    <label class="footer__lable" for="Email"></label>
+                    <input class="footer__form" type="email" id="Email" placeholder="Email">
+                    <button class="footer__btn">Join</button>
                     </form>
                 </li>
-                <li class="footer-social__item"><a class="footer-social__link-fb" href="#"><img class="footer-social__img" src="./pictures/Twitter.svg" alt="Facebook»"></a></li>
-                <li class="footer-social__item"><a class="footer-social__link-tw" href="#"><img class="footer-social__img" src="./pictures/twitter.svg" alt="Twitter»"></a></li>
-                <li class="footer-social__item"><a class="footer-social__link-pi" href="#"><img class="footer-social__img" src="./pictures/Pinterest.svg" alt="Pinterest»"></a></li>
-                <li class="footer-social__item"><a class="footer-social__link-ins" href="#"><img class="footer-social__img" src="./pictures/Instagram.svg" alt="Instagram»"></a></li>
+                <li class="footer-social__item"><a class="footer-social__link-fb" href="#"><img class="footer-social__img" src="../pictures/Facebook.svg" alt="Facebook»"></a></li>
+                <li class="footer-social__item"><a class="footer-social__link-tw" href="#"><img class="footer-social__img" src="../pictures/twitter.svg" alt="Twitter»"></a></li>
+                <li class="footer-social__item"><a class="footer-social__link-pi" href="#"><img class="footer-social__img" src="../pictures/Pinterest.svg" alt="Pinterest»"></a></li>
+                <li class="footer-social__item"><a class="footer-social__link-ins" href="#"><img class="footer-social__img" src="../pictures/Instagram.svg" alt="Instagram»"></a></li>
             </ul>
             </div>
             <div class="footer__end container">
@@ -179,5 +182,29 @@
             </div>
         </section>
     </footer>
+    <div class="contact__container">
+        <form class="contact__form" action="#" method="post">
+            <div class="contact-name">
+                <label class="contact__lable" for="Name">Name</label>
+                <input class="contact__input" type="text" id="Name" placeholder="Ivan Ivanov">
+            </div>
+            <div class="contact-input">
+                <div class="contact__lable-wrapper">
+                    <label class="contact__lable" for="Phone">Phone</label>
+                    <input class="contact__input-form" type="tel" id="Phone">
+                </div>
+                <div class="contact__lable-wrapper">
+                    <label class="contact__lable" for="Email">Email</label>
+                    <input class="contact__input-form" type="email" id="Email">
+                </div>
+            </div>
+            <div class="contact__lable-wrapper">
+                <label class="contact__lable" for="Message">Message</label>
+                <textarea class="contact__area" id="Message" cols="69" rows="8"></textarea>
+            </div>
+            <input class="contact__checkbox visualli__hidden" type="checkbox" id="agreement">
+            <label class="contact-agreement__lable" for="agreement">By clicking on the button, you consent to the processing of your personal data</label>
+            <button class="contact__btn">Submit</button>
+        </div>
 </body>
 </html>

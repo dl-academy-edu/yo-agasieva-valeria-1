@@ -233,6 +233,11 @@ header {
 
 .footer-social__item {
     display: inline;
+    margin-left: 6px;
+}
+
+.footer-social__item:not(:last-child){
+    margin-left: 5px;
 }
 
 .footer-social__img{
@@ -246,6 +251,7 @@ header {
 
 .footer__end-iformation{
     display: flex;
+    justify-content: space-between;
     gap: 99px;
     margin-left: 10px;
     margin-top: -32px;

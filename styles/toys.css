@@ -21,7 +21,7 @@
 }
 
 .cost{
-    margin-right: 84px;
+    margin-right: 68px;
 }
 
 .color{
@@ -32,11 +32,11 @@
     display: inline;
 }
 
-.delivery{
+.filtres-delivery{
     margin-right: 43px;
 }
 
-.filter__title{
+.filtres__title{
     font-family: 'Open Sans', Arial, sans-serif;
     font-weight: 700;
     font-size: 16px;
@@ -45,9 +45,24 @@
     color: #1E0606;
 }
 
-.color, .delivery{
+.color, .filtres-delivery{
     display: flex;
     flex-direction: column;
+}
+
+.filtres-quantity__namber{
+    display: flex;
+    flex-direction: row;
+    gap: 168px;
+    margin-top: 9px;
+}
+
+.filtres-quantity{
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1E0606;
 }
 
 .styled-slider{
@@ -265,11 +280,11 @@ input[type=range].styled-slider.slider-progress:active::-ms-fill-lower {
     background-image: url(../pictures/aktivche.png);
 }
 
-.delivery__item:not(:last-child){
+.filtres-delivery__item:not(:last-child){
     margin-bottom: 10px;
 }
 
-.delivery__lable{
+.filtres-delivery__lable{
     position: relative;
     padding-left: 30px;
     font-family: 'Open Sans';
@@ -279,8 +294,8 @@ input[type=range].styled-slider.slider-progress:active::-ms-fill-lower {
     color: #1E0606; 
 }
 
-.delivery__lable::after,
-.delivery__lable::before{
+.filtres-delivery__lable::after,
+.filtres-delivery__lable::before{
     content: '';
     position: absolute;
     left: 0;
@@ -288,21 +303,21 @@ input[type=range].styled-slider.slider-progress:active::-ms-fill-lower {
     height: 20px;
 }
 
-.delivery__shipping + .delivery__lable::before{
+.filtres-delivery__shipping + .filtres-delivery__lable::before{
     background-image: url(../pictures/radio.svg);
 }
 
-.delivery__shipping:checked + .delivery__lable::after{
+.filtres-delivery__shipping:checked + .filtres-delivery__lable::after{
     background-image: url(../pictures/radioact.png);
 }
 
-.amount__item{
+.filtres-amount__item{
     display: inline;
     margin: -4px;
     padding: 0;
 }
 
-.amount__lable{
+.filtres-amount__lable{
     font-family: 'Open Sans';
     font-weight: 400;
     font-size: 16px;
@@ -315,23 +330,23 @@ input[type=range].styled-slider.slider-progress:active::-ms-fill-lower {
     cursor: pointer;
 }
 
-.amount__lable{
+.filtres-amount__lable{
     content: '';
     background: #ffffff;
 }
 
 
-.amount__list, .amount__chek:checked + .amount__lable{
+.filtres-amount__list, .filtres-amount__chek:checked + .filtres-amount__lable{
     background: #F3D0DB;
 }
 
-.amount__chek:hover + .amount__lable{
+.filtres-amount__chek:hover + .filtres-amount__lable{
     background: #EDDEEB;
 }
 
 
 
-.filter__btn-apply{
+.filtres__btn-apply{
     font-family: 'Open Sans';
     font-weight: 700;
     font-size: 16px;
