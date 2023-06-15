@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="./styles/normalize.css">
     <link rel="stylesheet" href="./styles/common.css">
     <link rel="stylesheet" href="./styles/index.css">
-    <link rel="stylesheet" href="/styles/contact.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,400;1,700&family=Montserrat:wght@200;700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
@@ -52,7 +51,7 @@
                 <li class="banner-picture__item">
                     <img class="banner-picture__img" width="635" height="461" alt="product picture" src="./pictures/bunner.png">                    
                 </li>
-                <li class="banner-picture__item"><button class="banner__btn bt-text">Explore now</button></li>
+                <li class="banner-picture__item"><button class="banner__btn banner__btn_js bt-text">Explore now</button></li>
             </ul>
             <p class="shipping__text">Free (continental) USA shipping on all orders of $100 USD or more!</p>
         </section>
@@ -182,7 +181,8 @@
             </div>
         </section>
     </footer>
-    <div class="contact__container">
+    <div class="contact__container contact__container_js hidden">
+        <button class="contact__exit contact__exit_js "></button>
         <form class="contact__form" action="#" method="post">
             <div class="contact-name">
                 <label class="contact__lable" for="Name">Name</label>
@@ -206,5 +206,6 @@
             <label class="contact-agreement__lable" for="agreement">By clicking on the button, you consent to the processing of your personal data</label>
             <button class="contact__btn">Submit</button>
         </div>
+        <script src="./cod.js/modal.js"></script>
 </body>
 </html>
