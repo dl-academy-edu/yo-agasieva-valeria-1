@@ -5,7 +5,6 @@
 .toys-title{
     display: flex;
     margin-top: 59px;
-    margin-left: 10px;
     margin-bottom: 15px;
     margin-top: 60px;
 }
@@ -363,7 +362,6 @@ input[type=range].styled-slider.slider-progress:active::-ms-fill-lower {
     display: flex;
     flex-wrap: wrap;
     margin-top: 59px;
-    margin-left: 10px;
     gap: 47px 20px;
 }
 

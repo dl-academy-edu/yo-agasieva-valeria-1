@@ -1,23 +1,17 @@
 .banner{
     position: relative;
+    width: 1180px;
+    background: #EEE4DB;
 } 
 
 .banner-title{
-    position: absolute;
-    width: 307px;
-    height: 88px;
-    left: 143px;
-    top: 67px;
-    line-height: 100%;
+    margin: -85px 0 0px 133px;
+    max-width: 48%;
 }
 
 .banner-nav__list {
     margin-top: 129px;
-    margin-left: 10px;
-    width: 1180px;
-    height: 371px;
     padding: 20px 0px;
-    background: #EEE4DB;
 }
 
 .banner-nav{
@@ -57,9 +51,7 @@
 }
 
 .banner-text{
-    position: absolute;
-    left: 144px;
-    top: 196px;
+    margin: 18px 0px 24px 134px;
     font-family: 'Crimson Text', Arial, sans-serif;
     font-style: italic;
     font-weight: 400;
@@ -70,32 +62,22 @@
 
 .banner-picture__img {
     position: absolute;
-    left: 456px;
-    top: -90px;
+    left: 446px;
+    top: -89px;
     z-index: 1;
 }
 
 .banner__btn{
-    position: absolute;
-    width: 161px;
-    height: 40px;
-    left: 144px;
-    top: 243px;
-    display: flex;
-    align-items: center;
+    margin: 0px 0px 89px 133px;
+    padding: 9px 22px;
     background: #000000;
     font-family: 'Open Sans', Arial, sans-serif;
     font-style: normal;
+    text-transform: uppercase;
     font-weight: 700;
     font-size: 16px;
     line-height: 22px;
     color: #FFFFFF;
-}
-
-.bt-text{
-    align-items: center;
-    justify-content: center;
-    text-transform: uppercase;
 }
 
 .shipping__text{
@@ -106,22 +88,21 @@
     color: #FFFFFF;
     background: #C29974;
     text-align: center;
-    padding: 11px 364px;
+    padding: 12px;
     text-transform: uppercase;
-    margin-left: 10px;
+
 }
 
 .category__title{
     font-size: 38px;
     line-height: 100%;
-    margin: 95px 11px 35px;
+    margin: 95px 0px 35px;
     max-width: 100%;
 }
 
 .category__list{
     display: flex;
-    margin-left: 10px;
-    margin-bottom: 27px;
+    margin-bottom: 25px;
     gap: 21px;
 }
 
@@ -196,12 +177,12 @@
 
 .nav__info{
     display: flex;
-    margin-left: 6px;
-    margin-bottom: 88px;
+    margin-left: -5px;
+    margin-bottom: 89px;
 }
 
 .category-control-left{
-    margin-left: 5px;
+    margin-left: 6px;
     width: 37px;
     height: 37px;
     background-image: url(/pictures/left.svg);
@@ -262,12 +243,8 @@
 
 .delivery{
     display: flex;
-    margin-left: 10;
     gap: 60px;
-}
-
-.delivery__img{
-    margin-left: 10px;
+    margin-bottom: 50px;
 }
 
 .delivery-title{
@@ -322,16 +299,12 @@ margin-bottom: 30px;
     font-weight: 400;
     font-size: 16px;
     line-height: 22px;
-    max-width: 72%;
-    margin: 15px 0px 15px 61px;
+    max-width: 73%;
+    margin: 17px 0px 9px 61px;
 }
 
 .learn{
     margin: 35px 0px 0px 61px;
-}
-
-.partners__list{
-    margin: 41px 0px 0px 9px;
 }
 
 .delivery-btn{
@@ -359,25 +332,30 @@ margin-bottom: 30px;
 
 .partners{
     display: flex;
-    gap: 119px;
-    margin-bottom: 40px;
+    margin-left: 83px;
+    gap: 118px;
+    margin-bottom: 57px;
 }
 
 .partners__list{
+    margin: 41px 0px 0px 9px;
     display: flex;
     align-items: center;
-    margin-bottom: 25px;
 }
 
-.about{
+.two__column{
     display: flex;
     gap: 57px;
 }
 
-.about-list{
-    margin-left: 10px;
+.about{
+    max-height: fit-content;
     background: #E1F0F7;
     max-width: 543px;
+}
+
+.about-contacts__list{
+    max-height: fit-content;
 }
 
 .about-title{
@@ -388,7 +366,6 @@ margin-bottom: 30px;
     text-transform: uppercase;
     color: #1E0606;
     margin-left: 30px;
-    margin-top: -25px;
 }
 
 .about-text{
@@ -402,7 +379,6 @@ margin-bottom: 30px;
 }
 
 .about-excerpt{
-    display: flex;
     font-family: 'Open Sans', Arial, sans-serif;
     font-weight: 400;
     font-size: 16px;
@@ -416,13 +392,8 @@ margin-bottom: 30px;
     font-weight: 700;
     font-size: 16px;
     line-height: 22px;
-    align-items: center;
-    text-align: center;
     text-transform: uppercase;
     color: #FFFFFF;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
     padding: 9px 22px;
     background: #000000;
     margin: 7px 0px 0px 31px;
@@ -455,14 +426,10 @@ margin-bottom: 30px;
     margin-left: 33px;
 }
 
-.contact__container{
-    display: flex;
-}
 
 .contact__form {
     background-color: #E5EAF8;
     max-width: 680px;
-    margin-left: 10px;
     padding: 41px 40px 42px 40px;
 }
 

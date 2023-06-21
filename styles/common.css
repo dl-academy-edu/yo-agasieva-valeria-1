@@ -40,18 +40,16 @@ button:hover{
 }
 
 .container{
-    max-width: 1200px;
-    margin: 50px auto;
+    max-width: 1180px;
+    margin: auto;
 }
 
 header {
     display: flex;
     align-items: center;
+    padding-top: 48px;
 }
 
-.header__logo{
-    margin-left: 7px;
-}
 
 .header__logo:hover{
     opacity: 0.5;
@@ -68,7 +66,7 @@ header {
 
 .header__nav-list {
     display: flex;
-    margin: auto 62px;
+    margin: auto 59px;
     align-items: center;
 }
 
@@ -93,7 +91,7 @@ header {
 .header-search__list{
     display: flex;
     justify-content: end;
-    margin-right: 12px;
+    margin-right: 2px;
 } 
 
 .header-search__item{
@@ -253,7 +251,6 @@ header {
     display: flex;
     justify-content: space-between;
     gap: 99px;
-    margin-left: 10px;
     margin-top: -32px;
     border-top: 1px solid #666666;
     padding-top: 23px;
@@ -362,7 +359,6 @@ header {
 
 .breadcrumps-list{
     display: flex;
-    margin-left: 10px;
     gap: 21px;
     margin-bottom: 50px;
 }
@@ -403,7 +399,6 @@ header {
     border: 0; 
     outline: none; 
     background-color: transparent;
-    margin-left: 10px;
     margin-right: 10px;
 }
 

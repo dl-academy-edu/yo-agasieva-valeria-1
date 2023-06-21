@@ -112,20 +112,19 @@
                 </li>
             </ul>
         </div>
-        <section class="about container">
-            <ul class="about-list">
-                <li class="about__item"><h2 class="about-title">Design Life Kids</h2></li>
-                <li class="about__item about-text">About Us</li>
-                <li class="about__item"><p class="about-excerpt">Some days i feel like i've been working on dlk my entire life and there are other days that i am completely shocked that four years have flown by. It's simply magical.</p></li>
-                <li class="about__item"><button class="about-btn__itme">buy now</button></li>
-            </ul>
-            <ul class="about-contacts__list">
-                <li class="about-contacts__item"><h2 class="about__title">Contacts</h2></li>
-                <li class="about-contacts-text">Some days i feel like i've been working on dlk my entire life and there are other days that i am completely shocked that four years have flown by. It's simply magical.</li>
-                <li class="about-map"><iframe class="about__map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2372.537043862174!2d49.2888075422212!3d53.51246498697054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x416879a82611632d%3A0xb18d94ffcf91e387!2sDL%20Academy!5e0!3m2!1sru!2sru!4v1685726583103!5m2!1sru!2sru" width="483" height="196" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </li>                
-            </ul>
-        </section>
+        <div class="container two__column">
+            <section class="about">
+                <h2 class="about-title">Design Life Kids</h2>
+                <p class="about-text">About Us</p>
+                <p class="about-excerpt">Some days i feel like i've been working on dlk my entire life and there are other days that i am completely shocked that four years have flown by. It's simply magical.</p>
+                <button class="about-btn__itme">buy now</button>
+            </section>
+            <article class="about-contacts__list">
+                <h2 class="about__title">Contacts</h2>
+                <p class="about-contacts-text">Some days i feel like i've been working on dlk my entire life and there are other days that i am completely shocked that four years have flown by. It's simply magical.</p>
+                <iframe class="about__map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2372.537043862174!2d49.2888075422212!3d53.51246498697054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x416879a82611632d%3A0xb18d94ffcf91e387!2sDL%20Academy!5e0!3m2!1sru!2sru!4v1685726583103!5m2!1sru!2sru" width="483" height="196" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>              
+            </article>
+        </div>
     </main>
     <footer>
         <section class="footer">
@@ -155,7 +154,6 @@
                     <label class="footer__lable" for="Email"></label>
                     <input class="footer__form" type="email" id="Email" placeholder="Email">
                     <button class="footer__btn">Join</button>
-                    </form>
                 </li>
                 <li class="footer-social__item"><a class="footer-social__link-fb" href="#"><img class="footer-social__img" src="../pictures/Facebook.svg" alt="Facebook»"></a></li>
                 <li class="footer-social__item"><a class="footer-social__link-tw" href="#"><img class="footer-social__img" src="../pictures/twitter.svg" alt="Twitter»"></a></li>
@@ -194,8 +192,8 @@
                     <input class="contact__input-form" type="tel" id="Phone">
                 </div>
                 <div class="contact__lable-wrapper">
-                    <label class="contact__lable" for="Email">Email</label>
-                    <input class="contact__input-form" type="email" id="Email">
+                    <label class="contact__lable" for="Email-footer">Email</label>
+                    <input class="contact__input-form" type="email" id="Email-footer">
                 </div>
             </div>
             <div class="contact__lable-wrapper">
@@ -205,7 +203,8 @@
             <input class="contact__checkbox visualli__hidden" type="checkbox" id="agreement">
             <label class="contact-agreement__lable" for="agreement">By clicking on the button, you consent to the processing of your personal data</label>
             <button class="contact__btn">Submit</button>
-        </div>
+        </form>
+    </div>
         <script src="./cod.js/modal.js"></script>
 </body>
 </html>
