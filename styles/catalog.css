@@ -4,13 +4,17 @@
     border: none;
 }
 
+.category__title {
+    margin: 59px 0 15px 0px;
+}
+
 .category__list {
     display: flex;
     max-width: 1086px;
     flex-wrap: wrap;
     row-gap: 20px;
     column-gap: 19px;
-
+    margin-bottom: 52px;
 }
 
 .category__item{
@@ -70,7 +74,6 @@
     text-shadow: 0px 0px 40px #93030340;
 }
 
-
 .category__img1{
     padding: 46px 18px;
     background: #DBE4DB;
@@ -112,14 +115,14 @@
     font-size: 38px;
     line-height: 46px;
     text-transform: uppercase;  
-    margin-left: 211px;
+    margin-left: 200px;
     margin-bottom: 25px;
 }
 
 .description__list {
     display: flex;
     flex-direction: column;
-    margin-left: 211px;
+    margin-left: 200px;
     gap: 15px;
 }
 
@@ -129,9 +132,9 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 22px;
-    max-width: 68%;
+    max-width: 69%;
 }
 
 .footer{
-    margin-top: 65px;
+    margin-top: 56px;
 }

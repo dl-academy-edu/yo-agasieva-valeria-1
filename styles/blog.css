@@ -1,15 +1,19 @@
+.blog__contanier {
+    margin-bottom: 37px;
+}
+
 .blog__title{
     font-weight: 700;
     font-size: 40px;
     line-height: 49px;
-    margin: 58px 0px 14px 10px;
+    margin: 58px 0px 14px 0px;
 }
 
 .blog-list{
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-    margin-bottom: -39px;
+    margin-bottom: 14px;
 }
 
 .blog__item{
@@ -53,5 +57,9 @@
 }
 
 .pages{
-    margin-bottom: 60px;
+    margin-bottom: -21px;
+}
+
+footer{
+    margin-top: 70px;
 }

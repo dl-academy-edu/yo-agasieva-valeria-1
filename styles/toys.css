@@ -1,5 +1,7 @@
 *{
     border: none;
+    padding: 0;
+    margin: 0;
 }
 
 .toys-title{
@@ -14,13 +16,47 @@
     height: 254px;
 }
 
-.filtres__form{
+.filtres__wrapper{
     display: flex;
-    padding-top: 41px;
 }
 
+.filtres__form{
+    display: flex;
+    padding-top: 43px;
+}
+
+.filtres__title-amount,
+.filtres__title-delivery,
+.filtres__title-color,
+.filtres__title-cost{
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    padding-bottom: 9px;
+    color: #1E0606;
+}
+
+
 .cost{
-    margin-right: 68px;
+    margin-right: 58px;
+    margin-left: -7px;
+}
+
+.filtres__title-cost{
+    margin-left: -5px;
+}
+
+.filtres__title-color{
+    margin-left: 12px;
+}
+
+.filtres__title-delivery{
+    margin-left: 10px;
+}
+
+.filtres__title-amount{
+    margin-bottom: 6px;
 }
 
 .color{
@@ -31,19 +67,6 @@
     display: inline;
 }
 
-.filtres-delivery{
-    margin-right: 43px;
-}
-
-.filtres__title{
-    font-family: 'Open Sans', Arial, sans-serif;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 22px;
-    padding-bottom: 8px;
-    color: #1E0606;
-}
-
 .color, .filtres-delivery{
     display: flex;
     flex-direction: column;
@@ -52,8 +75,9 @@
 .filtres-quantity__namber{
     display: flex;
     flex-direction: row;
-    gap: 168px;
-    margin-top: 9px;
+    gap: 170px;
+    margin-top: 7px;
+    margin-left: -5px;
 }
 
 .filtres-quantity{
@@ -247,6 +271,10 @@ input[type=range].styled-slider.slider-progress:active::-ms-fill-lower {
     width: 122px;
 }
 
+.color__item {
+    margin-left: 9px;
+}
+
 .color__item:not(:last-child){
     margin-bottom: 15px;
 }
@@ -279,6 +307,10 @@ input[type=range].styled-slider.slider-progress:active::-ms-fill-lower {
     background-image: url(../pictures/aktivche.png);
 }
 
+.filtres-delivery__item{
+    margin-left: 6px;
+}
+
 .filtres-delivery__item:not(:last-child){
     margin-bottom: 10px;
 }
@@ -308,6 +340,10 @@ input[type=range].styled-slider.slider-progress:active::-ms-fill-lower {
 
 .filtres-delivery__shipping:checked + .filtres-delivery__lable::after{
     background-image: url(../pictures/radioact.png);
+}
+
+.filtres__contaner-amount{
+    margin-left: 46px;
 }
 
 .filtres-amount__item{
@@ -356,6 +392,10 @@ input[type=range].styled-slider.slider-progress:active::-ms-fill-lower {
     text-transform: uppercase;
     color: #ffffff;
     background-color: #000000;
+}
+
+.toys__catalog{
+    padding-bottom: 75px;
 }
 
 .toys__list{
@@ -414,6 +454,6 @@ input[type=range].styled-slider.slider-progress:active::-ms-fill-lower {
     color: #1E0606; 
 }
 
-.footer-block{
-    padding-top: 100px;
+.pages{
+    margin-bottom: 49px;
 }

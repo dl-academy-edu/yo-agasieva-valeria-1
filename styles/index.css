@@ -269,8 +269,7 @@ margin-bottom: 30px;
     margin-left: 61px;
 }
 
-.delivery__btn:hover,
-.chekt{
+.delivery__btn:hover{
     font-family: 'Crimson Text';
     font-style: italic;
     font-weight: 700;
@@ -346,16 +345,14 @@ margin-bottom: 30px;
 .two__column{
     display: flex;
     gap: 57px;
+    padding-bottom: 41px;
 }
 
 .about{
-    max-height: fit-content;
+    display: block;
+    min-height: fit-content;
     background: #E1F0F7;
     max-width: 543px;
-}
-
-.about-contacts__list{
-    max-height: fit-content;
 }
 
 .about-title{
@@ -366,6 +363,7 @@ margin-bottom: 30px;
     text-transform: uppercase;
     color: #1E0606;
     margin-left: 30px;
+    margin-top: -24px
 }
 
 .about-text{
@@ -544,7 +542,7 @@ margin-bottom: 30px;
 .contact__container{
     display: flex;
     top: 0;
-    flex-direction: column;
+    flex-direction: row-reverse;
     gap: 20px;
     position: absolute;
     justify-content: center;
@@ -570,7 +568,7 @@ margin-bottom: 30px;
     height: 15px;
     background-image: url(../pictures/exit.svg);
     background-repeat: no-repeat;
-    
+    margin-bottom: 524px;
 }
 
 .contact__exit:hover{

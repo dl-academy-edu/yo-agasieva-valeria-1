@@ -46,52 +46,61 @@
             </nav>
         </section>
         <section class="filtres">
-        <form class="filtres__form container" action ="toys-color">
-            <fieldset class="cost">
-                <legend class="filtres__title">Cost</legend> 
-            <input class=" styled-slider slider-progress" type="range" min="0" max="500" id="quantity">
-            <div class="filtres-quantity__namber">
-                <label class="filtres-quantity" for="quantity">0</label>
-                <label class="filtres-quantity" for="quantity">500</label>
-            </div>
-            </fieldset>
-            <fieldset class="color"> 
-                <legend class="filtres__title">Color</legend>
-                <ul class="color__list">
-                    <li class="color__item"><input class="color__ceckbox visualli__hidden" type="checkbox" id="black">
-                        <label class="color__lable" for="black">Black</label></li>
-                    <li class="color__item"><input class="color__ceckbox visualli__hidden" type="checkbox" id="blue">
-                        <label class="color__lable" for="blue">Blue</label></li>
-                    <li class="color__item"><input class="color__ceckbox visualli__hidden" type="checkbox" id="green">
-                        <label class="color__lable" for="green">Green</label></li>
-                    <li class="color__item"><input class="color__ceckbox visualli__hidden" type="checkbox" id="white">
-                        <label class="color__lable" for="white">White</label></li>
-                </ul>
-            </fieldset>   
-            <fieldset class="filtres-delivery">
-                <legend class="filtres__title">Delivery</legend>
-                <ul class="filtres-delivery__list">
-                    <li class="filtres-delivery__item"><input class="filtres-delivery__shipping visualli__hidden" name="filtres-delivery" type="radio" id="Free">
-                        <label class="filtres-delivery__lable" for="Free">Free shipping</label></li>
-                    <li class="filtres-delivery__item"><input class="filtres-delivery__shipping visualli__hidden" name="filtres-delivery" type="radio" id="Fast">
-                        <label class="filtres-delivery__lable" for="Fast">Fast shipping</label></li>
-                </ul>
-            </fieldset>
-            <fieldset class="filtres-amount">
-                <legend class="filtres__title">Amount</legend>
-                <ul class="filtres-amount__list">
-                    <li class="filtres-amount__item"><input class="filtres-amount__chek visualli__hidden" type="radio" name="filtres-amount" id="0-5">
-                        <label class="filtres-amount__lable" for="0-5">0-5</label></li>
-                    <li class="filtres-amount__item"><input class="filtres-amount__chek visualli__hidden" type="radio" name="filtres-amount" id="10-20">
-                        <label class="filtres-amount__lable" for="10-20">10-20</label></li>
-                    <li class="filtres-amount__item"><input class="filtres-amount__chek visualli__hidden" type="radio" name="filtres-amount" id="20-50">
-                        <label class="filtres-amount__lable" for="20-50">20-50</label></li>
-                </ul>
-            </fieldset>
-            <div class="">
-                <button class="filtres__btn-apply">Apply</button>
-            </div> 
-        </form>
+            <div class="container filtres__wrapper">
+                    <form class="filtres__form" action ="toys-color">
+                    <div class="filtres__contanier-cost">    
+                        <fieldset class="cost">
+                            <legend class="filtres__title-cost">Cost</legend> 
+                                <input class=" styled-slider slider-progress" type="range" min="0" max="500" id="quantity">
+                                <div class="filtres-quantity__namber">
+                                <label class="filtres-quantity" for="quantity">0</label>
+                                <label class="filtres-quantity" for="quantity">500</label>
+                        </fieldset>
+                    </div>
+                <div class="filtres__contaner">
+                    <fieldset class="color"> 
+                        <legend class="filtres__title-color">Color</legend>
+                        <ul class="color__list">
+                            <li class="color__item"><input class="color__ceckbox visualli__hidden" type="checkbox" id="black">
+                                <label class="color__lable" for="black">Black</label></li>
+                            <li class="color__item"><input class="color__ceckbox visualli__hidden" type="checkbox" id="blue">
+                                <label class="color__lable" for="blue">Blue</label></li>
+                            <li class="color__item"><input class="color__ceckbox visualli__hidden" type="checkbox" id="green">
+                                <label class="color__lable" for="green">Green</label></li>
+                            <li class="color__item"><input class="color__ceckbox visualli__hidden" type="checkbox" id="white">
+                                <label class="color__lable" for="white">White</label></li>
+                        </ul>
+                    </fieldset> 
+                </div>
+                <div class="filtres__contaner">
+                    <fieldset class="filtres-delivery">
+                        <legend class="filtres__title-delivery">Delivery</legend>
+                        <ul class="filtres-delivery__list">
+                            <li class="filtres-delivery__item"><input class="filtres-delivery__shipping visualli__hidden" name="filtres-delivery" type="radio" id="Free">
+                                <label class="filtres-delivery__lable" for="Free">Free shipping</label></li>
+                            <li class="filtres-delivery__item"><input class="filtres-delivery__shipping visualli__hidden" name="filtres-delivery" type="radio" id="Fast">
+                                <label class="filtres-delivery__lable" for="Fast">Fast shipping</label></li>
+                        </ul>
+                    </fieldset>
+                </div>
+                <div class="filtres__contaner-amount">
+                    <fieldset class="filtres-amount">
+                        <legend class="filtres__title-amount">Amount</legend>
+                        <ul class="filtres-amount__list">
+                            <li class="filtres-amount__item"><input class="filtres-amount__chek visualli__hidden" type="radio" name="filtres-amount" id="0-5">
+                                <label class="filtres-amount__lable" for="0-5">0-5</label></li>
+                            <li class="filtres-amount__item"><input class="filtres-amount__chek visualli__hidden" type="radio" name="filtres-amount" id="10-20">
+                                <label class="filtres-amount__lable" for="10-20">10-20</label></li>
+                            <li class="filtres-amount__item"><input class="filtres-amount__chek visualli__hidden" type="radio" name="filtres-amount" id="20-50">
+                                <label class="filtres-amount__lable" for="20-50">20-50</label></li>
+                        </ul>
+                    </fieldset>
+                </div>
+                <div class="filtres__btn-contanier">
+                    <button class="filtres__btn-apply">Apply</button>
+                </div> 
+            </form>
+        </div>
         </section>
         <section class="toys__catalog container">
             <h2 class="hidden__header">Catologe Toy</h2>
@@ -146,7 +155,7 @@
             <ul class="footer__list">
                 <li class="footer-title"><p class="footer-text">Navigation</p></li>
                 <li class="footer__item"><a class="footer__link" href="#">About Us</a></li>
-                <li class="footer__item"><a class="footer__link" href="../pages/blog.html">Blog</a></li>
+                <li class="footer__item"><a class="footer__link" href="#">Blog</a></li>
                 <li class="footer__item"><a class="footer__link" href="#">Design Services</a></li>
                 <li class="footer__item"><a class="footer__link" href="#">Featured On</a></li>
                 <li class="footer__item"><a class="footer__link" href="#">2018 Holiday Catalog</a></li>
@@ -154,7 +163,7 @@
             </ul>
             <ul class="footer__list">
                 <li class="footer-title"><p class="footer-text">Customer Information</p> </li>
-                <li class="footer__item"><a class="footer__link" href="../pages/contact.html">Contact Us</a></li>
+                <li class="footer__item"><a class="footer__link" href="#">Contact Us</a></li>
                 <li class="footer__item"><a class="footer__link" href="#">Sale Exclusions</a></li>
                 <li class="footer__item"><a class="footer__link" href="#">Shipping & Returns</a></li> 
                 <li class="footer__item"><a class="footer__link" href="#">Terms & Conditions</a></li>
@@ -164,8 +173,8 @@
             <ul class="footer__list">
                 <li class="footer-title"><p class="footer-text" tabindex="0">Connect</p></li>
                 <li class="footer__input">
-                    <label class="footer__lable" for="Emailfooter"></label>
-                    <input class="footer__form" type="email" id="Emailfooter" placeholder="Email">
+                    <label class="footer__lable" for="Email"></label>
+                    <input class="footer__form" type="email" id="Email" placeholder="Email">
                     <button class="footer__btn">Join</button>
                 </li>
                 <li class="footer-social__item"><a class="footer-social__link-fb" href="#"><img class="footer-social__img" src="../pictures/Facebook.svg" alt="Facebook»"></a></li>
@@ -175,20 +184,28 @@
             </ul>
             </div>
             <div class="footer__end container">
-            <ul class="footer__end-iformation">
-                <li class="footer__end-text"> Company Rating</li> 
-                <li class="footer__end-stars"><fieldset class="information__raiting">
-                    <legend class="hidden__header">Rating</legend>
-                        <input class="raiting__stars width" type="radio" name="raiting stars" value="1" aria-label="terrible">
-                        <input class="raiting__stars width" type="radio" name="raiting stars" value="2" aria-label="tolerably">
-                        <input class="raiting__stars width" type="radio" name="raiting stars" value="3" aria-label="normal">
-                        <input class="raiting__stars width" type="radio" name="raiting stars" value="4" aria-label="fine">
-                        <input class="raiting__stars width" type="radio" name="raiting stars" value="5" aria-label="great">
-                    </fieldset>
-                </li>
-                <li class="footer__end-text">Copyright © 2018 Dlk • Design Life Kids</li>
-                <li class="footer__end-text">Web Design — Direct Line Development</li>
-            </ul>
+            <div class="footer__end-iformation">
+                <div class="footer__end-stars-contaner">
+                    <p class="footer__end-text"> Company Rating</p> 
+                    <div class="footer__end-stars">
+                        <div class="footer-stars__items" >
+                            <input class="raiting__stars" id="raiting-stars__1" type="radio" name="raiting stars" value="5" aria-label="terrible">
+                            <label class="raiting-stars__lable" for="raiting-stars__1"></label>
+                            <input class="raiting__stars" id="raiting-stars__2" type="radio" name="raiting stars" value="4" aria-label="tolerably">
+                            <label class="raiting-stars__lable" for="raiting-stars__2"></label>
+                            <input class="raiting__stars" id="raiting-stars__3" type="radio" name="raiting stars" value="3" aria-label="normal">
+                            <label class="raiting-stars__lable" for="raiting-stars__3"></label>
+                            <input class="raiting__stars" id="raiting-stars__4" type="radio" name="raiting stars" value="2" aria-label="fine">
+                            <label class="raiting-stars__lable" for="raiting-stars__4"></label>
+                            <input class="raiting__stars" id="raiting-stars__5" type="radio" name="raiting stars" value="1" aria-label="great">
+                            <label class="raiting-stars__lable" for="raiting-stars__5"></label>
+                        </div>
+                    </div>    
+                </div>
+                <div class="footer__end-text__contanier">
+                    <p class="footer__end-text">Copyright © 2018 Dlk • Design Life Kids</p>
+                    <p class="footer__end-text">Web Design — Direct Line Development</p>
+                </div>
             </div>
         </section>
     </footer>

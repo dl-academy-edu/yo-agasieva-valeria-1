@@ -100,7 +100,6 @@
                     <label class="footer__lable" for="Email"></label>
                     <input class="footer__form" type="email" id="Email" placeholder="Email">
                     <button class="footer__btn">Join</button>
-                    </form>
                 </li>
                 <li class="footer-social__item"><a class="footer-social__link-fb" href="#"><img class="footer-social__img" src="../pictures/Facebook.svg" alt="Facebook»"></a></li>
                 <li class="footer-social__item"><a class="footer-social__link-tw" href="#"><img class="footer-social__img" src="../pictures/twitter.svg" alt="Twitter»"></a></li>
@@ -109,20 +108,28 @@
             </ul>
             </div>
             <div class="footer__end container">
-            <ul class="footer__end-iformation">
-                <li class="footer__end-text"> Company Rating</li> 
-                <li class="footer__end-stars"><fieldset class="information__raiting">
-                    <legend class="hidden__header">Rating</legend>
-                        <input class="raiting__stars width" type="radio" name="raiting stars" value="1" aria-label="terrible">
-                        <input class="raiting__stars width" type="radio" name="raiting stars" value="2" aria-label="tolerably">
-                        <input class="raiting__stars width" type="radio" name="raiting stars" value="3" aria-label="normal">
-                        <input class="raiting__stars width" type="radio" name="raiting stars" value="4" aria-label="fine">
-                        <input class="raiting__stars width" type="radio" name="raiting stars" value="5" aria-label="great">
-                    </fieldset>
-                </li>
-                <li class="footer__end-text">Copyright © 2018 Dlk • Design Life Kids</li>
-                <li class="footer__end-text">Web Design — Direct Line Development</li>
-            </ul>
+            <div class="footer__end-iformation">
+                <div class="footer__end-stars-contaner">
+                    <p class="footer__end-text"> Company Rating</p> 
+                    <div class="footer__end-stars">
+                        <div class="footer-stars__items" >
+                            <input class="raiting__stars" id="raiting-stars__1" type="radio" name="raiting stars" value="5" aria-label="terrible">
+                            <label class="raiting-stars__lable" for="raiting-stars__1"></label>
+                            <input class="raiting__stars" id="raiting-stars__2" type="radio" name="raiting stars" value="4" aria-label="tolerably">
+                            <label class="raiting-stars__lable" for="raiting-stars__2"></label>
+                            <input class="raiting__stars" id="raiting-stars__3" type="radio" name="raiting stars" value="3" aria-label="normal">
+                            <label class="raiting-stars__lable" for="raiting-stars__3"></label>
+                            <input class="raiting__stars" id="raiting-stars__4" type="radio" name="raiting stars" value="2" aria-label="fine">
+                            <label class="raiting-stars__lable" for="raiting-stars__4"></label>
+                            <input class="raiting__stars" id="raiting-stars__5" type="radio" name="raiting stars" value="1" aria-label="great">
+                            <label class="raiting-stars__lable" for="raiting-stars__5"></label>
+                        </div>
+                    </div>    
+                </div>
+                <div class="footer__end-text__contanier">
+                    <p class="footer__end-text">Copyright © 2018 Dlk • Design Life Kids</p>
+                    <p class="footer__end-text">Web Design — Direct Line Development</p>
+                </div>
             </div>
         </section>
     </footer>
