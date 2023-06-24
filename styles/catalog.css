@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     border: none;
@@ -17,12 +17,11 @@
     margin-bottom: 52px;
 }
 
-.category__item{
+.category__item {
     position: relative;
 }
-.category__text{
-    font-family: 'Montserrat', Arial, sans-serif;
-    font-style: normal;
+.category__text {
+    font-family: 'Montserrat-Bold', Arial, sans-serif;
     font-weight: 700;
     font-size: 26px;
     position: absolute;
@@ -32,9 +31,8 @@
     text-align: center;
 }
 
-.category__text1{
-    font-family: 'Montserrat', Arial, sans-serif;
-    font-style: normal;
+.category__text1 {
+    font-family: 'Montserrat-Bold', Arial, sans-serif;
     font-weight: 700;
     font-size: 26px;
     position: absolute;
@@ -44,9 +42,8 @@
     top: 120px;
 }
 
-.category__text2{
-    font-family: 'Montserrat', Arial, sans-serif;
-    font-style: normal;
+.category__text2 {
+    font-family: 'Montserrat-Bold', Arial, sans-serif;
     font-weight: 700;
     font-size: 26px;
     position: absolute;
@@ -58,7 +55,7 @@
 
 .category__text:hover,
 .category__text1:hover,
-.category__text2:hover{
+.category__text2:hover {
     color: #FFFFFF;
     text-decoration: underline;
     text-transform: uppercase;
@@ -67,50 +64,50 @@
 
 .category__text:active,
 .category__text1:active,
-.category__text2:active{
+.category__text2:active {
     color: #FFFFFF;
     text-decoration: underline;
     text-transform: uppercase;
     text-shadow: 0px 0px 40px #93030340;
 }
 
-.category__img1{
+.category__img1 {
     padding: 46px 18px;
     background: #DBE4DB;
 }
 
-.category__img2{
+.category__img2 {
     padding: 13px 36px;
     background: #EADDD3;
 }
 
-.category__img3{
+.category__img3 {
     padding: 0px 5px;
     background: #F8F2DA;
 }
 
-.category__img4{
+.category__img4 {
     margin-left: 200px;
     padding: 10px 20px;
     background: #D5D4E1;
 }
 
-.category__img5{
+.category__img5 {
     padding: 10px 18px 10px 17px;
     background-color: #F3D0DB;
 }
 
-.category__img6{
+.category__img6 {
     padding: 32px 3px;
     background-color: #E5EAF8;
 }
 
-.category__link{
+.category__link {
     color: #FFFFFF;
 }
 
 .description__title {
-    font-family: 'Montserrat';
+    font-family: 'Montserrat-Bold', Arial, sans-serif;
     font-weight: 700;
     font-size: 38px;
     line-height: 46px;
@@ -127,14 +124,13 @@
 }
 
 .description__text {
-    font-family: 'Open Sans';
-    font-style: normal;
+    font-family: 'OpenSans-Regular', Arial, sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 22px;
     max-width: 69%;
 }
 
-.footer{
+.footer {
     margin-top: 56px;
 }
