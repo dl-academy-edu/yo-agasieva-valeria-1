@@ -154,21 +154,13 @@
 }
 
 .toys {
-    position: absolute;
     left: 103px;
     top: 120px;
-    z-index: 1;
-    max-width: 50%;
-    text-align: center;
 }
 
 .accessories {
-    position: absolute;
     left: 40px;
     top: 120px;
-    z-index: 1;
-    max-width: 50%;
-    text-align: center;
 }
 
 .nav__info {
