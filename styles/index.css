@@ -327,13 +327,12 @@ margin-bottom: 30px;
 
 .partners {
     display: flex;
-    margin-left: 83px;
-    gap: 118px;
+    gap: 127px;
     margin-bottom: 57px;
 }
 
 .partners__list {
-    margin: 41px 0px 0px 9px;
+    margin: 41px 0 0 0;
     display: flex;
     align-items: center;
 }
@@ -342,6 +341,7 @@ margin-bottom: 30px;
     display: flex;
     gap: 57px;
     padding-bottom: 41px;
+    max-height: fit-content;
 }
 
 .about {
@@ -349,6 +349,7 @@ margin-bottom: 30px;
     min-height: fit-content;
     background: #E1F0F7;
     max-width: 543px;
+    max-height: 229px;
 }
 
 .about-title {

@@ -228,7 +228,6 @@ header {
 
 .footer-block {
     display: flex;
-    color: #AAAAAA;
     padding-top: 100px;
     margin-bottom: 53px;
     gap: 20px;
@@ -242,6 +241,7 @@ header {
     font-family: 'Open Sans', Arial, sans-serif;
     font-size: 16px;
     line-height: 22px;
+    color: #AAAAAA;
     border-bottom: 1px solid #666666;
     margin-bottom: 20px;
     padding-bottom: 23px;
@@ -331,6 +331,14 @@ header {
     background-repeat: no-repeat;
 }
 
+.footer-social__img:hover {
+    opacity: 0.5;
+}
+
+.footer-social__img:active {
+    opacity: 0.2;
+}
+
 .footer__end-iformation {
     display: flex;
     margin-top: -32px;
@@ -350,7 +358,8 @@ header {
 }
 
 .footer__end-text,
-.footer__end-item {
+.footer__end-item,
+.footer__end-text_stars {
     font-family: 'OpenSans-Regular', Arial, sans-serif;
     font-weight: 400;
     font-size: 16px;
@@ -410,7 +419,7 @@ header {
 .raiting-stars__lable:hover,
 .raiting-stars__lable:hover ~ .raiting-stars__lable,
 .raiting-stars__lable:checked ~ .raiting-stars__lable:hover,
-.footer__end-text:hover {
+.footer__end-text_stars:hover {
     color: #836E5B;
 }
 

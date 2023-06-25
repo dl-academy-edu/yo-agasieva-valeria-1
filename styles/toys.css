@@ -369,7 +369,6 @@ input[type=range].styled-slider.slider-progress:active::-ms-fill-lower {
     background: #ffffff;
 }
 
-
 .filtres-amount__list, .filtres-amount__chek:checked + .filtres-amount__lable {
     background: #F3D0DB;
 }
@@ -377,8 +376,6 @@ input[type=range].styled-slider.slider-progress:active::-ms-fill-lower {
 .filtres-amount__chek:hover + .filtres-amount__lable {
     background: #EDDEEB;
 }
-
-
 
 .filtres__btn-apply {
     font-family: 'OpenSans-Bolb', Arial, sans-serif;
